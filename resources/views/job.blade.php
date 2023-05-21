@@ -55,7 +55,7 @@
                         </div>
                     </div>
 
-                    <a href="{{ URL::to("form-application.html") }}"><div class="submit">投递简历</div></a>
+                    <a href="{{ URL::to("form-application-1.html") }}"><div class="submit">投递简历</div></a>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@
                             <p>4. 对科技、投资、人力资源管理等领域有较高兴趣。</p>
                         </div>
                     </div>
-                    <a href="{{ URL::to("form-application.html") }}"><div class="submit">投递简历</div></a>
+                    <a href="{{ URL::to("form-application-2.html") }}"><div class="submit">投递简历</div></a>
                 </div>
             </div>
 
@@ -107,7 +107,7 @@
                             <p>4. 具备较强的数据和文书处理能力及优秀的沟通协调能力。</p>
                         </div>
                     </div>
-                    <a href="{{ URL::to("form-application.html") }}"><div class="submit">投递简历</div></a>
+                    <a href="{{ URL::to("form-application-3.html") }}"><div class="submit">投递简历</div></a>
                 </div>
             </div>
 

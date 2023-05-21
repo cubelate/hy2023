@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\HyCompany;
 use App\Models\HyFormBp;
+use App\Models\HyFormReservation;
+use App\Models\HyFormResume;
 use App\Models\HyIndexNew;
 use App\Models\HyNew;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
@@ -11,6 +13,8 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Validation\Rules\File;
+use function Nette\Utils\isNumber;
+use function PHPUnit\Framework\throwException;
 
 class MainController extends Controller
 {
@@ -130,17 +134,109 @@ class MainController extends Controller
         $model->bpfile = $path;
         $model->save();
 
-        return redirect("result.html");
+        return redirect("form-bp.html")->with('status', '1');
     }
 
     public function reservation() {
         return view('form_reservation', []);
     }
 
-    public function application() {
+    public function postReservation(Request $request) {
+        $request->validate([
+            'name' => 'required|max:20',
+            'mobile' => 'required|max:20',
+            'gender' => 'required|numeric',
+            'email' => 'required|max:50',
+            'company' => 'required|max:100',
+            'target' =>  'required|max:100',
+            'topic' => 'required|max:200',
+        ]);
+
+        $name = $request->input("name");
+        $mobile = $request->input("mobile");
+        $gender = $request->input("gender");
+        $email = $request->input("email");
+        $company = $request->input("company");
+        $title = $request->input("title");
+
+        $target = $request->input("target");
+        $topic = $request->input("topic");
+
+        $model = new HyFormReservation();
+        $model->name = $name;
+        $model->mobile_phone = $mobile;
+        $model->gender = $gender;
+        $model->email = $email;
+        $model->company = $company;
+        $model->title = $title;
+        $model->target = $target;
+        $model->topic = $topic;
+        $model->save();
+
+        return redirect("form-reservation.html")->with('status', '1');
+    }
+
+    public function application($type) {
+        if (!is_numeric($type)) {
+            abort(404);
+        }
+
+        if ($type < 1 || $type > 3) {
+            abort(404);
+        }
+
         return view('form_application', []);
     }
 
+    public function postApplication($type, Request $request) {
+        if (!is_numeric($type)) {
+            abort(404);
+        }
+
+        $type = intval($type);
+        if ($type < 1 || $type > 3) {
+            abort(404);
+        }
+
+        $request->validate([
+            'name' => 'required|max:20',
+            'mobile' => 'required|max:20',
+            'gender' => 'required|numeric',
+            'email' => 'required|max:50',
+            'file' => ['required',File::types(['pdf', 'doc', 'docx'])
+                ->max(4 * 1024),]
+        ]);
+
+        if ($type == 1) {
+            $position = "投资分析师（多赛道）";
+        } else if ($type == 2) {
+            $position = "企业学习发展专家";
+        } else if ($type == 3) {
+            $position = "基金运营";
+        } else {
+            abort(404);
+        }
+
+        $name = $request->input("name");
+        $mobile = $request->input("mobile");
+        $gender = $request->input("gender");
+        $email = $request->input("email");
+        $file = $request->file("file");
+
+        $path = $file->storeAs('public/resume',time() . "." .$file->clientExtension());
+
+        $model = new HyFormResume();
+        $model->position = $position;
+        $model->name = $name;
+        $model->mobile_phone = $mobile;
+        $model->gender = $gender;
+        $model->email = $email;
+        $model->file = $path;
+        $model->save();
+
+
+        return redirect("form-application-$type.html")->with('status', '1');
+    }
     public function result() {
         return view('form_result', []);
     }
