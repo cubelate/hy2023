@@ -41,6 +41,35 @@ font-family: MostItalic;
 src: url('../res/font/MostItalic.ttf');
 } */
 
+/* chrome */
+::-webkit-input-placeholder {
+    color: #999;
+    font-weight: 300;
+}
+
+/* Firefox */
+::-moz-placeholder {
+    color: #999;
+    font-weight: 300;
+}
+
+/* - Internet Explorer */
+:-ms-input-placeholder {
+    color: #999 !important;
+    font-weight: 300 !important;
+}
+
+/* Edge*/
+::-ms-input-placeholder {
+    color: #999;
+    font-weight: 300;
+}
+
+/* CSS通用 */
+::placeholder {
+    color: #999;
+    font-weight: 300;
+}
 html{
     margin: 0 auto;
     -webkit-font-smoothing:antialiased;
@@ -66,7 +95,7 @@ i{ font-style:normal; font-weight:normal;}
 /* .flex-frame{max-width:1920px;min-width:1800px; margin:0 auto;position: relative;min-height:100%;} */
 .flex-frame{
     min-height:100vh;
-    min-width:1310px;
+    /* min-width:1310px; */
     margin:0 auto;position: relative;
     background:#ffffff;
     -webkit-transform-origin:left top;
@@ -175,4 +204,7 @@ i{ font-style:normal; font-weight:normal;}
     -o-transition: all .3s;
     transition: all .3s;
 }
-
+/* mobile */
+@media screen and (max-width:999px) {
+    html{font-size: calc( (100vw / 390) * 10 )}
+}

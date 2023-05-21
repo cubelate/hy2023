@@ -1203,6 +1203,283 @@
     line-height:40px;
     background-size:16px 10px;
 }
+/* form page */
+.from_wrap{
+    padding-top:66px;
+    background: #F7F7F8;
+    min-height:100%;
+}
+.form_banner{
+    height:551px;
+    position:relative;
+}
+.form_banner img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.form_banner_content{
+    position:absolute;
+    left:50%;
+    top:125px;
+    z-index: 1;
+    width:650px;
+    margin-left:-440px;
+    color: #9F291F;
+    line-height:36px;
+}
+.form_banner_content .title{
+    font-size:50px;
+    font-weight:bold;
+    color: #9F291F;
+    margin-bottom:35px;
+}
+
+.form_banner_content .des_cn{
+    font-size: 33px;
+    margin-bottom:15px;
+}
+.form_banner_content .des_en{
+    font-size: 29px;
+}
+.form_content{
+    max-width:1000px;
+    margin:0 auto;
+    padding:69px 60px 240px;
+}
+.form_content_item{
+    background:#FFF;
+    border-radius:35px;
+    padding:0 47px;
+    margin-top:23px;
+}
+.form_content_item:first-child{
+    margin-top:0;
+}
+.form_content_item .title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height:92px;
+    height:92px;
+}
+.form_content_item .row{
+    line-height:92px;
+    border-top:solid 3px #D8D8D8;
+    font-size: 0;
+    font-weight: 500;
+    color:#999999;
+    height:92px;
+}
+.form_content_item .row label{
+    font-size:30px;
+}
+.form_content_item .row input[type="text"]{
+    float:right;
+    height:100%;
+    width:50%;
+    text-align:right;
+    font-size: 26px;
+    font-weight: 300;
+    color:#000;
+}
+.form_content_item .row .inputRadio{
+    float:right;
+    text-align:right;
+    height:100%;
+    font-size: 0;
+}
+.form_content_item .row .inputRadio input::after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    background: url('../img/ico_radio_off.svg') no-repeat center #fff;
+    width:28px;
+    height:28px;
+    background-size: contain;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.form_content_item .row .inputRadio input{
+    width:28px;
+    height:28px;
+    vertical-align: middle;
+    cursor: pointer;
+    position:relative;
+    margin-left:35px;
+
+}
+.form_content_item .row .inputRadio input:checked::after{
+    background: url('../img/ico_radio_on.svg') no-repeat center;
+    position: absolute;
+    background-size: contain;
+}
+
+.form_content_item .row .inputRadio .radioLabel{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    color:#999;
+    padding-left:26px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top:-6px;
+}
+.form_content_item .row .inputRadio input:checked + .radioLabel{
+    color:#9F291F;
+}
+.form_content_item   .inline_block{
+    float:right;
+    text-align:right;
+    height:100%;
+    font-size: 26px;
+    color:#999;
+    cursor: pointer;
+    font-weight:300;
+    position:relative;
+
+}
+.form_content_item .row  .form_moreBtn{
+    width: 19px;
+    height: 19px;
+    color: #999;
+}
+.form_content_item .uploadTip{
+    font-size: 26px;
+    font-weight: 300;
+    color:#999;
+    margin-left:60px;
+    vertical-align: middle;
+}
+.form_content_item .fileBtn{
+    width:51px;
+    height:57px;
+    position:relative;
+    float:right;
+    vertical-align: middle;
+    position:absolute;
+    right:0;
+    top:50%;
+    margin-top:-25px;
+    z-index: 1;
+    /* visibility: hidden; */
+    cursor: pointer;
+    opacity: 0;
+}
+.form_content_item .ico_pdf{
+    position:absolute;
+    right:0;
+    top:50%;
+    width:51px;
+    height:57px;
+    z-index: 2;
+    margin-top:-25px;
+    pointer-events: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.form_content_item .ico_upload{
+    position:absolute;
+    right:0;
+    top:50%;
+    width:51px;
+    height:53px;
+    z-index: 2;
+    margin-top:-25px;
+    pointer-events: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.form_content .submit{
+    font-size: 30px;
+    font-weight: 500;
+    color:#fff;
+    background: #9F291F;
+    border-radius:35px;
+    height:86px;
+    line-height:86px;
+    text-align:center;
+    letter-spacing: 50px;
+    margin-top:58px;
+    cursor: pointer;
+}
+.form_content_item .row .longInput{
+    width:100%!important;
+    text-align: left!important;
+}
+.form_content_item  .bx{
+    border-top:solid 3px #D8D8D8;
+}
+.form_content_item  .bx .textarea{
+    width:100%;
+    height:180px;
+    border:none;
+    resize: none;
+    outline: none;
+    font-size:26px;
+    font-weight:300;
+    padding-top:27px;
+    line-height:1.5;
+}
+/* aplication1*/
+.aplication_content{
+    width:1000px;
+    margin:0 auto;
+    padding:0 60px 200px;
+}
+.aplication_content_item {
+    border-radius: 35px;
+    overflow: hidden;
+    padding-bottom:52px;
+    background-color: #fff;
+    margin-top:69px;
+}
+.aplication_content_item .top{
+    padding:36px;
+    min-height:103px;
+    font-size: 30px;
+    line-height:60px;
+    font-weight: 500;
+    text-align: center;
+    color:#fff;
+    background: linear-gradient(90deg, #9F291F 0%, rgba(203,57,44,0.51) 100%);
+}
+
+.aplication_content_item .contain{
+    padding:0 45px 0;
+}
+.aplication_content_item .des{
+    padding-top:50px;
+}
+.aplication_content_item .des_title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+.aplication_content_item .des_txt{
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: justify;
+}
+.aplication_content_item .submit{
+    font-size: 30px;
+    font-weight: 500;
+    color:#fff;
+    background: #9F291F;
+    border-radius:35px;
+    height:86px;
+    line-height:86px;
+    text-align:center;
+    letter-spacing: 10px;
+    margin-top:58px;
+    cursor: pointer;
+    width:100%;
+}
+
 @media screen and (min-width:1901px){
     @media screen and (max-height:1045px) {
         .team_banner{ min-height:447px; height:calc(100vh - 66px - 131px - 308px);}
@@ -1446,4 +1723,40 @@
     .pagination_df .item{width:28px;height:28px;line-height:28px;font-size:14px;}
     .pagination_df .next{width:58px;height:28px;line-height:28px;}
     
+}
+/* mobile */
+@media screen and (max-width:999px) {
+    /* form page */
+    .form_banner{height:19rem;}
+    .form_banner_content{left:0;top:6rem;width:auto;max-width:29rem;margin-left:0;line-height:1.5;padding:0 1.9rem;}
+    .form_banner_content .title{font-size: 2.4rem;font-weight:700;margin-bottom:.5rem}
+    .form_banner_content .des_cn{font-size:1.4rem;margin-bottom:0;}
+    .form_banner_content .des_en{font-size:1rem;}
+    .form_content{padding:3.5rem 1.9rem 7.9rem;}
+    .form_content_item{border-radius: 1.5rem;margin-top:1.1rem;padding:0 1.7rem;}
+    .form_content_item .title{font-size:1.6rem;height:46px;line-height:46px;}
+    .form_content_item .row{line-height:4.6rem;border-top:solid .1rem #D8D8D8;height:4.6rem;}
+    .form_content_item .row label{font-size:1.6rem;}
+    .form_content_item .row input[type="text"]{font-size: 1.4rem;}
+    .form_content_item .row .inputRadio input::after{width:1.5rem;height:1.5rem;}
+    .form_content_item .row .inputRadio input{width:1.5rem;height:1.5rem;margin-left:2.1rem;}
+    .form_content_item .row .inputRadio .radioLabel{font-size:1.6rem;padding-left:1.4rem;margin-top:-.2rem}
+    .form_content_item   .inline_block{font-size:1.4rem;}
+    .form_content_item .row  .form_moreBtn{width:.9rem;height:.9rem;}
+    .form_content_item .uploadTip{font-size:1.4rem;margin-left:3rem;}
+    .form_content_item .fileBtn{width:2.4rem;height:2.8rem;margin-top:-1.4rem;}
+    .form_content_item .ico_pdf{width:2.4rem;height:2.8rem;margin-top:-1.4rem;}
+    .form_content_item .ico_upload{width:2.3rem;height:2.4rem;margin-top:-1.2rem;}
+    .form_content .submit{margin-top:3.2rem;height:4.6rem;line-height:4.6rem;font-size:1.6rem;letter-spacing: 1.6rem;}
+    .form_content_item  .bx{border-top:solid .1rem #D8D8D8;}
+    .form_content_item  .bx .textarea{height:6.9rem;font-size:1.4rem;margin-top:1.3rem;padding:0;}
+    .aplication_content{width:100%;padding:0 1.9rem 7.9rem;}
+    .aplication_content_item{border-radius:1.5rem;padding-bottom:2.7rem;margin-top:3.5rem;}
+    .aplication_content_item .top{min-height:4.1rem;line-height:2rem;font-size:1.6rem;padding:1rem;}
+    .aplication_content_item .contain{padding:0 1.7rem 0;}
+    .aplication_content_item .des{padding-top:2rem;}
+    .aplication_content_item .des_title{font-size:1.4rem;margin-bottom:2rem;}
+    .aplication_content_item .des_txt{font-size:1.4rem;line-height:2.6rem;}
+    .aplication_content_item .submit{font-size:1.6rem;border-radius: 3.1rem;height:4.6rem;line-height:4.6rem;margin-top:2rem;}
+
 }

@@ -24,3 +24,14 @@ Route::get('/empower.html', [MainController::class, 'empower']);
 Route::get('/team.html', [MainController::class, 'team']);
 Route::get('/news.html', [MainController::class, 'news']);
 Route::get('/news_detail_{id}.html', [MainController::class, 'detail']);
+
+Route::get('/result.html', [MainController::class, 'result']);
+
+Route::get('/form-bp.html', [MainController::class, 'bp']);
+Route::post('/form-bp.html', [MainController::class, 'postBp']);
+
+Route::get('/job.html', [MainController::class, 'job']);
+
+
+Route::get('/form-reservation.html', [MainController::class, 'reservation']);
+Route::get('/form-application.html', [MainController::class, 'application']);

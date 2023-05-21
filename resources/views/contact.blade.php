@@ -23,9 +23,9 @@
     <div class="contactUs_content ">
         <div class="wd_con contactUs_contain clearfix">
             <div class="ltBar">
-                <a class="btn" href="https://host.convertlab.com/p/b3827c" target="_blank">BP投送</a>
-                <a class="btn" href="https://host.convertlab.com/p/2de4e" target="_blank">预约交流</a>
-                <a class="btn" href="https://host.convertlab.com/p/1c488" target="_blank">求贤若渴</a>
+                <a class="btn" href="{{ URL::to("form-bp.html") }}" target="_blank">BP投送</a>
+                <a class="btn" href="{{ URL::to("form-reservation.html") }}" target="_blank">预约交流</a>
+                <a class="btn" href="{{ URL::to("job.html") }}" target="_blank">求贤若渴</a>
 
                 <div class="contact_ways">
                     <div class="item">
