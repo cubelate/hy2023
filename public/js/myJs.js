@@ -124,4 +124,20 @@ function closeBounceFrame(){
         $("#teamerIntro .btn_bp").remove();
     }
 }
+
+// form 
+// select
+$('.form_select').click(function(){
+    console.log('a')
+    $('.form_selectOption').toggle();
 })
+$('.form_selectOption li').click(function(){
+    var val = $(this).text()
+    $('.form_select .select_placeholder').hide()
+    $('.form_select .select_value').text(val)
+    $('.form_selectOption').toggle();
+})
+
+
+})
+

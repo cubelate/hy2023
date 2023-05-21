@@ -1282,6 +1282,38 @@
     font-weight: 300;
     color:#000;
 }
+.form_content_item .row .form_select{
+   position:relative;
+}
+.form_content_item .row .form_select .select_value{
+    color:#000;
+    font-weight:500;
+}
+.form_content_item .row .form_selectOption{
+    position:absolute;
+    right:0;
+    top:85px;
+    background:#fff;
+    border:solid 1px #d8d8d8;
+    z-index: 10;
+    max-height:250px;
+    overflow-y: auto;
+    display: none;
+    min-width:200px;
+}
+.form_content_item .row .form_selectOption li{
+    padding:0 30px;
+    border-top:solid 1px #d8d8d8;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    font-size:20px;
+    white-space: nowrap;
+}
+.form_content_item .row .form_selectOption li:hover{
+    color:#fff;
+    background:#9F291F;
+}
 .form_content_item .row .inputRadio{
     float:right;
     text-align:right;

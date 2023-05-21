@@ -74,11 +74,20 @@
                 <div class="row">
                     <label>公司所属行业</label>
                     <span class="inline_block">
-                            <span>
-                            请选择公司所属行业
+                        <div class="form_select user_noSelect">
+                            <span class="select_placeholder">请选择公司所属行业</span>
+                            <span class="select_value"></span>
                             <img class="form_moreBtn" src="img/icon_formMoreBtn.svg" alt="">
-                            </span>
-                        </span>
+                        </div>
+                        <ul class="form_selectOption">
+                            <li>金融</li>
+                            <li>互联网</li>
+                            <li>运输</li>
+                            <li>电子商务</li>
+                            <li>仪器仪表</li>
+                            <li>其他</li>
+                        </ul>
+                    </span>
                 </div>
                 <div class="row">
                     <label>您的职务</label><input name="title" type="text" placeholder="请输入您的职务">
