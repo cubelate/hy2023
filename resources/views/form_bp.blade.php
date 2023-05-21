@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <form action="{{ URL::to("form-bp.html") }}" enctype="multipart/form-data" class="form_content" method="post">
+        <form id="theform" action="{{ URL::to("form-bp.html") }}" enctype="multipart/form-data" class="form_content" method="post">
 
             @if ($errors->any())
                 <div class="alert alert-danger" style="padding-bottom: 20px; font-size: 20px; color: red">
@@ -103,10 +103,17 @@
                     </div>
                 </div>
             </div>
-
-            <input class="submit" type="submit" value="提交">
+                <div id="btnSubmit" class="submit">提交</div>
+            <script>
+                $('#btnSubmit').click(function () {
+                    $('#theform').submit();
+                });
+            </script>
         </form>
 
+        @if (session('status'))
+            <script>alert("您的数据已经成功提交！");</script>
+        @endif
     </div>
 </div>
 </body>

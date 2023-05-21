@@ -34,4 +34,7 @@ Route::get('/job.html', [MainController::class, 'job']);
 
 
 Route::get('/form-reservation.html', [MainController::class, 'reservation']);
-Route::get('/form-application.html', [MainController::class, 'application']);
+Route::post('/form-reservation.html', [MainController::class, 'postReservation']);
+
+Route::get('/form-application-{type}.html', [MainController::class, 'application']);
+Route::post('/form-application-{type}.html', [MainController::class, 'postApplication']);
