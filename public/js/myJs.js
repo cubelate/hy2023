@@ -127,14 +127,12 @@ function closeBounceFrame(){
 
 // form 
 // select
-$('.form_select').click(function(){
-    console.log('a')
+$('.form_select .inputBtn').click(function(){
     $('.form_selectOption').toggle();
 })
 $('.form_selectOption li').click(function(){
     var val = $(this).text()
-    $('.form_select .select_placeholder').hide()
-    $('.form_select .select_value').text(val)
+    $('.form_select .inputBtn').val(val)
     $('.form_selectOption').toggle();
 })
 

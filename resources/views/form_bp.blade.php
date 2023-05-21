@@ -75,8 +75,7 @@
                     <label>公司所属行业</label>
                     <span class="inline_block">
                         <div class="form_select user_noSelect">
-                            <span class="select_placeholder">请选择公司所属行业</span>
-                            <span class="select_value"></span>
+                            <input class="inputBtn" type="text" readonly placeholder="请选择公司所属行业">
                             <img class="form_moreBtn" src="img/icon_formMoreBtn.svg" alt="">
                         </div>
                         <ul class="form_selectOption">

@@ -1282,13 +1282,15 @@
     font-weight: 300;
     color:#000;
 }
+.form_content_item .row input.inputBtn{
+    float: none;
+    width:auto;
+    cursor:pointer;
+}
 .form_content_item .row .form_select{
    position:relative;
 }
-.form_content_item .row .form_select .select_value{
-    color:#000;
-    font-weight:500;
-}
+
 .form_content_item .row .form_selectOption{
     position:absolute;
     right:0;
