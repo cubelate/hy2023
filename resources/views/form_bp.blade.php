@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/common.css?t={{ time() }}">
     <link rel="stylesheet" href="./css/style.css?t={{ time() }}">
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/myJs.js"></script>
+    <script src="./js/myJs.js?t={{ time() }}"></script>
 </head>
 <body>
 <div class="header bg">
