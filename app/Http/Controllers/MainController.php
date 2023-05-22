@@ -107,8 +107,8 @@ class MainController extends Controller
             'email' => 'required|max:50',
             'company' => 'required|max:100',
             'title' => 'required|max:100',
-            //'type' => 'required|max:100',
-            'bpfile' => ['required',File::types(['pdf'])
+            'industry' => 'required|max:100',
+            'custom_1153789' => ['required',File::types(['pdf'])
                 ->max(4 * 1024),]
         ]);
 
@@ -118,15 +118,15 @@ class MainController extends Controller
         $email = $request->input("email");
         $company = $request->input("company");
         $title = $request->input("title");
-        $type = $request->input("type");
-        $bpfile = $request->file("bpfile");
+        $type = $request->input("industry");
+        $bpfile = $request->file("custom_1153789");
 
         $path = $bpfile->storeAs('public/bp',time() . "." .$bpfile->clientExtension());
 
         $model = new HyFormBp();
         $model->name = $name;
         $model->mobile_phone = $mobile;
-        $model->type = "云云也";
+        $model->type = $type;
         $model->gender = $gender;
         $model->email = $email;
         $model->company = $company;
@@ -148,8 +148,8 @@ class MainController extends Controller
             'gender' => 'required|numeric',
             'email' => 'required|max:50',
             'company' => 'required|max:100',
-            'target' =>  'required|max:100',
-            'topic' => 'required|max:200',
+            'custom_13114826' =>  'required|max:100',
+            'custom_655378' => 'required|max:200',
         ]);
 
         $name = $request->input("name");
@@ -159,8 +159,8 @@ class MainController extends Controller
         $company = $request->input("company");
         $title = $request->input("title");
 
-        $target = $request->input("target");
-        $topic = $request->input("topic");
+        $target = $request->input("custom_13114826");
+        $topic = $request->input("custom_655378");
 
         $model = new HyFormReservation();
         $model->name = $name;
@@ -181,11 +181,17 @@ class MainController extends Controller
             abort(404);
         }
 
-        if ($type < 1 || $type > 3) {
+        if ($type == 1) {
+            $position = "投资分析师（多赛道）";
+        } else if ($type == 2) {
+            $position = "企业学习发展专家";
+        } else if ($type == 3) {
+            $position = "基金运营";
+        } else {
             abort(404);
         }
 
-        return view('form_application', []);
+        return view('form_application', ['position' => $position]);
     }
 
     public function postApplication($type, Request $request) {
@@ -203,7 +209,7 @@ class MainController extends Controller
             'mobile' => 'required|max:20',
             'gender' => 'required|numeric',
             'email' => 'required|max:50',
-            'file' => ['required',File::types(['pdf', 'doc', 'docx'])
+            'custom_8022109' => ['required',File::types(['pdf', 'doc', 'docx'])
                 ->max(4 * 1024),]
         ]);
 
@@ -221,7 +227,7 @@ class MainController extends Controller
         $mobile = $request->input("mobile");
         $gender = $request->input("gender");
         $email = $request->input("email");
-        $file = $request->file("file");
+        $file = $request->file("custom_8022109");
 
         $path = $file->storeAs('public/resume',time() . "." .$file->clientExtension());
 

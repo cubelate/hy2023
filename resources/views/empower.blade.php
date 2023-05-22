@@ -231,8 +231,6 @@
 
     <x-foot-contact />
 </div>
-<script>
-    console.log(window)
-</script>
+<x-convertlab />
 </body>
 </html>

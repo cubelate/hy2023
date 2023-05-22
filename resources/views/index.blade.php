@@ -235,7 +235,7 @@
                                 </a>
                             </li>
                             @endforeach
-                            
+
 
                         </ul>
                         <a class="btn_link btn_more" href="{{ URL::to('news.html') }}">查看更多</a>
@@ -423,5 +423,7 @@
     //     getScreenInfo()
     // })
 </script>
+
+<x-convertlab />
 </body>
 </html>
