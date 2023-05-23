@@ -20,4 +20,8 @@ Route::group([
     $router->resource('hy-companies', HyCompanyController::class);
     $router->post('/upload', [Image2Controller::class, 'upload']);
     $router->resource('hy-index-news', HyIndexNewController::class);
+
+    $router->resource('hy-form-bps', HyFormBpController::class);
+    $router->resource('hy-form-reservations', HyFormReservationController::class);
+    $router->resource('hy-form-resumes', HyFormResumeController::class);
 });

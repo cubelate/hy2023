@@ -123,6 +123,8 @@ class MainController extends Controller
 
         $path = $bpfile->storeAs('public/bp',time() . "." .$bpfile->clientExtension());
 
+        $path = str_replace("public/bp", "bp", $path);
+
         $model = new HyFormBp();
         $model->name = $name;
         $model->mobile_phone = $mobile;
@@ -231,6 +233,8 @@ class MainController extends Controller
 
         $path = $file->storeAs('public/resume',time() . "." .$file->clientExtension());
 
+        $path = str_replace("public/resume", "resume", $path);
+        
         $model = new HyFormResume();
         $model->position = $position;
         $model->name = $name;
