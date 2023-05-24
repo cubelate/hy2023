@@ -227,6 +227,22 @@
                         </div>
                         <img class="founder_avatar" src="img/founde6.gif" alt="">
                     </li>
+                    <li class="founder_list_item">
+                        <p class="founder_des">华业是兼具产业及财务投资背景的专业机构，尤其对产业赛道有很深刻的洞见，并能够站在创业者的角度，从产品、管理、资源链接等多维度帮助企业。</p>
+                        <div class="founder_info">
+                            <p class="founder_info_name">吴金刚 </p>
+                            <p class="founder_info_position">英诺赛科 CEO</p>
+                        </div>
+                        <img class="founder_avatar" src="img/founde7.png" alt="">
+                    </li>
+                    <li class="founder_list_item">
+                        <p class="founder_des">华业天成连续多轮加注乐动，是我们最重要的投资人伙伴之一，在战略、组织发展等多个维度一直帮助我们成长，很荣幸能和华业天成在创业路上一起前行。</p>
+                        <div class="founder_info">
+                            <p class="founder_info_name">周伟</p>
+                            <p class="founder_info_position">乐动机器人 CEO</p>
+                        </div>
+                        <img class="founder_avatar" src="img/founde8.png" alt="">
+                    </li>
                 </ul>
             </div>
         </div>
