@@ -2,7 +2,7 @@
 
 namespace App\Admin\Controllers;
 
-use App\models\HyFormReservation;
+use App\Models\HyFormReservation;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -15,7 +15,7 @@ class HyFormReservationController extends AdminController
      *
      * @var string
      */
-    protected $title = 'HyFormReservation';
+    protected $title = '预约管理';
 
     /**
      * Make a grid builder.

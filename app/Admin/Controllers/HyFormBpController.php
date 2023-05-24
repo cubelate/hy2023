@@ -2,7 +2,7 @@
 
 namespace App\Admin\Controllers;
 
-use App\models\HyFormBp;
+use App\Models\HyFormBp;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -15,7 +15,7 @@ class HyFormBpController extends AdminController
      *
      * @var string
      */
-    protected $title = 'HyFormBp';
+    protected $title = 'BP管理';
 
     /**
      * Make a grid builder.

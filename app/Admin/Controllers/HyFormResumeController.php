@@ -2,7 +2,7 @@
 
 namespace App\Admin\Controllers;
 
-use App\models\HyFormResume;
+use App\Models\HyFormResume;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -15,7 +15,7 @@ class HyFormResumeController extends AdminController
      *
      * @var string
      */
-    protected $title = 'HyFormResume';
+    protected $title = '简历管理';
 
     /**
      * Make a grid builder.
@@ -55,7 +55,7 @@ class HyFormResumeController extends AdminController
             // 去掉查看
             $actions->disableView();
         });
-        
+
         return $grid;
     }
 
