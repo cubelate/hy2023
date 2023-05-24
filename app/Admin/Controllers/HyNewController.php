@@ -100,8 +100,6 @@ class HyNewController extends AdminController
         $form->number('sort_val', __('排序'))->default(100)->help("排序值越大越靠前");
         $form->editor('content', __('文章内容'))->rules('required');
 
-
-
         return $form;
     }
 }

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/style.css?t={{ time() }}">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/myJs.js?t={{ time() }}"></script>
+    <script src="https://cbe.convertlab.com/cbe/collect?tid=1991677197867450&at=0&h=web"></script>
 </head>
 <body>
 <div class="header bg">
@@ -33,7 +34,7 @@
             </div>
         </div>
 
-        <form id="theform" action="{{ URL::to("form-bp.html") }}" enctype="multipart/form-data" class="form_content" method="post">
+        <form id="theform" action="{{ URL::to("form-bp.html") }}" enctype="multipart/form-data" class="form_content" method="post" data-cl-attached="false" data-cl-id="fa86b2a6947b45ad863eb5c241ad74ff">
 
             @if ($errors->any())
                 <div class="alert alert-danger" style="padding-bottom: 20px; font-size: 20px; color: red">
@@ -75,7 +76,7 @@
                     <label>公司所属行业</label>
                     <span class="inline_block">
                         <div class="form_select user_noSelect">
-                            <input class="inputBtn" type="text" readonly placeholder="请选择公司所属行业">
+                            <input name="industry" class="inputBtn" type="text" readonly placeholder="请选择公司所属行业">
                             <img class="form_moreBtn" src="img/icon_formMoreBtn.svg" alt="">
                         </div>
                         <ul class="form_selectOption">
@@ -97,17 +98,17 @@
                 <div class="title">上传BP
                     <span class="uploadTip">4M以内的 PDF文件</span>
                     <div class="inline_block">
-                        <input class="fileBtn" name="bpfile" type="file">
+                        <input class="fileBtn" name="custom_1153789" type="file">
                         <img class="ico_pdf" src="img/ico_pdf.svg" alt="">
                     </div>
                 </div>
             </div>
+
+                <input type="hidden" name="utma" id="utma" value="">
+                <input type="hidden" name="utmb" id="utmb" value="">
+                <input type="hidden" name="cltoken" id="cltoken" value="">
                 <div id="btnSubmit" class="submit">提交</div>
-            <script>
-                $('#btnSubmit').click(function () {
-                    $('#theform').submit();
-                });
-            </script>
+
         </form>
 
         @if (session('status'))
@@ -115,5 +116,44 @@
         @endif
     </div>
 </div>
+<script type="application/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            type: "get",  // 请求方式
+            url: "https://host.convertlab.com/formdata/get/fa86b2a6947b45ad863eb5c241ad74ff", // 请求路径
+            dataType: "json",   // 预期返回一个 json 类型数据
+            success: function (data) {   // data是形参名，代表返回的数据
+                $("#cltoken").val(data.token);
+            }
+        });
+    });
+
+    $('#btnSubmit').click(function () {
+
+        var f =$("input[name='cl_context']").val();
+        var a = f.split("&");
+        var utma = a[0].split("=")[1];
+        var utmb = a[1].split("=")[1];
+        $("#utma").val(utma);
+        $("#utmb").val(utmb);
+
+        let data = $('#theform').serialize();
+
+        $.ajax({
+            type: "post",  // 请求方式
+            data: data,
+            url: "https://host.convertlab.com/form/fa86b2a6947b45ad863eb5c241ad74ff", // 请求路径
+            dataType: "json",   // 预期返回一个 json 类型数据
+            success: function (data) {   // data是形参名，代表返回的数据
+
+            },
+            complete: function (data) {
+                $('#theform').submit(); // 先提交到convertlab，然后提交到自己的后台。
+            }
+        });
+
+    });
+</script>
+<x-convertlab />
 </body>
 </html>

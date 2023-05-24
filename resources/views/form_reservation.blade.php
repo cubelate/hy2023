@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/style.css?t={{ time() }}">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/myJs.js"></script>
+    <script src="https://cbe.convertlab.com/cbe/collect?tid=1991677197867450&at=0&h=web"></script>
 </head>
 <body>
 <div class="header bg">
@@ -33,7 +34,7 @@
             </div>
         </div>
 
-        <form id="theform" action="{{ URL::to("form-reservation.html") }}" class="form_content" method="post">
+        <form id="theform" action="{{ URL::to("form-reservation.html") }}" class="form_content" method="post" data-cl-attached="false" data-cl-id="fe3dffa67c474f668eac28e62435c867">
             @if ($errors->any())
                 <div class="alert alert-danger" style="padding-bottom: 20px; font-size: 20px; color: red">
                     <ul>
@@ -77,23 +78,18 @@
             <div class="form_content_item">
                 <div class="title">交流目的</div>
                 <div class="row">
-                    <input name="target" class="longInput" type="text" placeholder="请输入交流目的">
+                    <input name="custom_13114826" class="longInput" type="text" placeholder="请输入交流目的">
                 </div>
             </div>
 
             <div class="form_content_item">
                 <div class="title">交流话题</div>
                 <div class="bx">
-                    <textarea name="topic" form="theform" class="textarea" placeholder="温馨提示：华业愿意与行业交换真知，我们会针对您的交流内容进行最大程度的资源适配，并进行相关交流安排，请静候通知。"></textarea>
+                    <textarea name="custom_655378" form="theform" class="textarea" placeholder="温馨提示：华业愿意与行业交换真知，我们会针对您的交流内容进行最大程度的资源适配，并进行相关交流安排，请静候通知。"></textarea>
                 </div>
             </div>
 
             <div id="btnSubmit" class="submit">提交</div>
-            <script>
-                $('#btnSubmit').click(function () {
-                    $('#theform').submit();
-                });
-            </script>
         </form>
         @if (session('status'))
             <script>alert("您的数据已经成功提交！");</script>
@@ -101,5 +97,44 @@
     </div>
 </div>
 
+<script type="application/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            type: "get",  // 请求方式
+            url: "https://host.convertlab.com/formdata/get/fe3dffa67c474f668eac28e62435c867", // 请求路径
+            dataType: "json",   // 预期返回一个 json 类型数据
+            success: function (data) {   // data是形参名，代表返回的数据
+                $("#cltoken").val(data.token);
+            }
+        });
+    });
+
+    $('#btnSubmit').click(function () {
+
+        var f =$("input[name='cl_context']").val();
+        var a = f.split("&");
+        var utma = a[0].split("=")[1];
+        var utmb = a[1].split("=")[1];
+        $("#utma").val(utma);
+        $("#utmb").val(utmb);
+
+        let data = $('#theform').serialize();
+
+        $.ajax({
+            type: "post",  // 请求方式
+            data: data,
+            url: "https://host.convertlab.com/form/fe3dffa67c474f668eac28e62435c867", // 请求路径
+            dataType: "json",   // 预期返回一个 json 类型数据
+            success: function (data) {   // data是形参名，代表返回的数据
+
+            },
+            complete: function (data) {
+                $('#theform').submit(); // 先提交到convertlab，然后提交到自己的后台。
+            }
+        });
+
+    });
+</script>
+<x-convertlab />
 </body>
 </html>

@@ -241,7 +241,7 @@
                             </a>
                         </li>
                         @endforeach
-                        
+
                         <a class="btn_more_df btn_df" href="{{ URL::to('news.html') }}" target="_blank">查看更多</a>
                     </ul>
                 </div>
@@ -414,6 +414,6 @@
 
     <x-foot-contact />
 </div>
-
+<x-convertlab />
 </body>
 </html>

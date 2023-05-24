@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\MainController;
+use App\Models\HyNew;
+use App\Models\HyNewOld;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,3 +40,21 @@ Route::post('/form-reservation.html', [MainController::class, 'postReservation']
 
 Route::get('/form-application-{type}.html', [MainController::class, 'application']);
 Route::post('/form-application-{type}.html', [MainController::class, 'postApplication']);
+
+/*
+Route::get('/donews', function() {
+    $models = HyNewOld::all();
+    foreach ($models as $m) {
+        $n = new HyNew();
+        $n->type = 0;
+        $n->title = $m->title;
+        $n->title_in_list = $m->title_in_list;
+        $n->content = str_replace(["http://cms.huacapital.com//uploads", "http://www.huacapital.com//uploads"], "uploads", $m->content);
+        $n->event_day = $m->event_day;
+        $n->sort_val = $m->sort_val;
+        $n->save();
+    }
+
+    echo "Done";
+});
+*/
