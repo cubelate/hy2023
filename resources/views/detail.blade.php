@@ -18,6 +18,8 @@
     <style>
         .richTxtBx img{
             object-fit:contain;
+            max-width: 100%;
+            align-content: center;
         }
     </style>
 </head>
