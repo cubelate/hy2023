@@ -998,6 +998,7 @@ body{
     margin-bottom:100px;
     width:840px;
     float:right;
+    font-size: 24px;
 }
 .richTxtBx p{
     word-break: break-all;
