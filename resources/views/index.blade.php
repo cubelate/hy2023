@@ -325,7 +325,7 @@
                 location.href='./empower.html'  // 跳投后赋能
             }
             else if(swiper.activeLoopIndex===2){
-                location.href='./example.html'  // 跳投资案例
+                location.href='./case.html'  // 跳投资案例
             }
         }
         // resizeReInit:true,
