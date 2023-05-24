@@ -243,6 +243,38 @@
                         </div>
                         <img class="founder_avatar" src="img/founde8.png" alt="">
                     </li>
+                    <li class="founder_list_item">
+                            <p class="founder_des">华业在Pre-A轮领投了开元通信，并在后续多轮中持续支持，帮助我们全面理解产业趋势，并针对不同阶段经营及管理的进化提出了高价值建议，是开元通信信赖的投资人。</p>
+                            <div class="founder_info">
+                                <p class="founder_info_name">贾斌</p>
+                                <p class="founder_info_position">开元通信 CEO</p>
+                            </div>
+                            <img class="founder_avatar" src="img/founde9.png" alt="">
+                        </li>
+                        <li class="founder_list_item">
+                            <p class="founder_des">华业管理团队拥有优秀的产业实战经验和丰富的投资经验，他们在科技领域具有高远的视野，其通过价值投资与赋能成就企业的使命与科杰的社会价值精神高度契合，非常荣幸能与华业天成达成深度合作。</p>
+                            <div class="founder_info">
+                                <p class="founder_info_name">于洋</p>
+                                <p class="founder_info_position">科杰科技 CEO</p>
+                            </div>
+                            <img class="founder_avatar" src="img/founde10.png" alt="">
+                        </li>
+                        <li class="founder_list_item">
+                            <p class="founder_des">华业是注重倾听与理解创始人，按需提供投后支持的精品基金，尤其在创投环境风云突变的几年，华业结合公司的情况提供了理性建议，帮助PPIO快速调整商业模式和资本发展路径，实现了过去三年的逆境增长。</p>
+                            <div class="founder_info">
+                                <p class="founder_info_name">姚欣</p>
+                                <p class="founder_info_position">PPIO边缘云 CEO</p>
+                            </div>
+                            <img class="founder_avatar" src="img/founde11.png" alt="">
+                        </li>
+                        <li class="founder_list_item">
+                            <p class="founder_des">华业深耕硬科技领域，认知程度深，对科技公司的管理和产品营销都有很深刻的理解，并对企业成长期的痛点和难点密切关注，能够协助企业提供专精深的解决方案。</p>
+                            <div class="founder_info">
+                                <p class="founder_info_name">倪川 </p>
+                                <p class="founder_info_position">瓴芯电子 CEO</p>
+                            </div>
+                            <img class="founder_avatar" src="img/founde12.png" alt="">
+                        </li>
                 </ul>
             </div>
         </div>
