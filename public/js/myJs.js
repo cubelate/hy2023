@@ -123,6 +123,12 @@ function closeBounceFrame(){
         $("#teamerIntro p").remove();
         $("#teamerIntro .btn_bp").remove();
     }
+
+    // mobile nav
+    var isMobileNav = $('body').hasClass('bodyMask')
+    if(isMobileNav){
+        mobileNavTodo()
+    }
 }
 
 
@@ -140,7 +146,15 @@ $('.form_selectOption li').click(function(){
 
 // menu
 $('.btn_menu').click(function(){
-    $('.header .nav').slideToggle()
+    mobileNavTodo()
+})
+function mobileNavTodo(){
+    $('.header .nav').slideToggle('normal',function(){
+        $('body').toggleClass('bodyMask')
+    })
+}
+$('.header').click(function(e){
+    e.stopPropagation();
 })
 
 

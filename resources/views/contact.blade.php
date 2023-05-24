@@ -30,17 +30,17 @@
                 <div class="contact_ways">
                     <div class="item">
                         <img class="icon" src="./img/ico_contact_1.svg" alt="">
-                        <p class="txt">联系电话：0755-86968295</p>
+                        <p class="txt">联系电话：<span class="txt_val">0755-86968295</span></p>
                     </div>
 
                     <div class="item">
                         <img class="icon" src="./img/ico_contact_2.svg" alt="">
-                        <p class="txt">媒体合作：pr@hua­cap­i­tal.com</p>
+                        <p class="txt">媒体合作：<span class="txt_val">pr@hua­cap­i­tal.com</span></p>
                     </div>
 
                     <div class="item">
                         <img class="icon" src="./img/ico_contact_3.svg" alt="">
-                        <p class="txt">加入我们：hr@hua­cap­i­tal.com</p>
+                        <p class="txt">加入我们：<span class="txt_val">hr@hua­cap­i­tal.com</span></p>
                     </div>
                 </div>
             </div>
