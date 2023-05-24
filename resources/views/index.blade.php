@@ -245,11 +245,11 @@
 
             <!-- mobile -->
             <div class="home_module_nav">
-                <a class="item" href="#item_about"><span class="title">关于我们</span></a>
-                <a class="item" href="#item_example"><span class="title">投资案例</span></a>
-                <a class="item" href="#item_team"><span class="title">管理团队</span></a>
-                <a class="item" href="#item_empower"><span class="title">投后赋能</span></a>
-                <a class="item" href="#item_contact"><span class="title">联系我们</span></a>
+                <a class="item" href="{{ URL::to('about.html') }}"><span class="title">关于我们</span></a>
+                <a class="item" href="{{ URL::to('example.html') }}"><span class="title">投资案例</span></a>
+                <a class="item" href="{{ URL::to('team.html') }}"><span class="title">管理团队</span></a>
+                <a class="item" href="{{ URL::to('empower.html') }}"><span class="title">投后赋能</span></a>
+                <a class="item" href="{{ URL::to('newsList.html') }}"><span class="title">联系我们</span></a>
             </div>
             <ul class="home_mobile_content">
                 <li class="item" id="item_about">

@@ -994,6 +994,7 @@ body{
     font-weight:bold;
     margin-bottom:70px;
 }
+
 .richTxtBx{
     margin-bottom:100px;
     width:840px;
@@ -2503,7 +2504,7 @@ body{
     .empower_develop_des_bg{width:100%;height:auto;background:none;}
     .empower_develop-item{position:relative;left:0;top:0;padding:1.5rem 0;border-bottom: 1px solid #D8D8D8;}
     .empower_develop-item:last-child{border:none;}
-    .empower_develop-item-title{font-size:1.5rem;line-height:1.5;font-weight:700;color:#000;margin-bottom:0;padding-left:5rem;}
+    .empower_develop-item-title{font-size:1.5rem;line-height:1.5;font-weight:700;color:#000;margin-bottom:0;padding-left:5.5rem;}
     .empower_develop-item-title::before{width:3.2rem;height:3rem;margin-bottom:.5rem;}
     .empower_develop-item-des{font-size:1.4rem;font-size:300;line-height:2.2rem;color:#000;width:100%;text-align:justify;padding-left:6.3rem;}
     .empower_develop-item-des br{display: none;}
@@ -2586,11 +2587,11 @@ body{
     .honor_banner{height:6.6rem;background-size:cover;}
     .honor_banner .title{font-size:2rem;line-height:6.6rem;font-weight:700;}
     .honor_list{padding:4rem 2rem 0;}
-    .honor_list .item{margin-bottom:1.1rem;width:10.9rem;height:11.6rem;}
-    .honor_list .item_contain{padding:1.8rem;}
-    .honor_list .item_contain .item_year{font-size:1rem;line-height:1.5;margin-bottom:1.5rem;min-height:0}
-    .honor_list .item_contain .item_title{font-size:1.4rem;line-height:1.2;height:auto;}
-    .honor_list .item_contain .item_des{bottom:1rem;left:1rem;width:calc(100% - 2rem);padding:.5rem;font-size:.6rem;display: none;}
+    .honor_list .item{margin-bottom:2.2rem;width:16.6rem;height:17.7rem;}
+    .honor_list .item_contain{padding:2.2rem;}
+    .honor_list .item_contain .item_year{font-size:1.6rem;line-height:1.5;margin-bottom:1.5rem;min-height:0}
+    .honor_list .item_contain .item_title{font-size:1.8rem;line-height:1.2;height:auto;min-height:4.4rem;}
+    .honor_list .item_contain .item_des{bottom:2rem;left:2rem;width:calc(100% - 4rem);padding:.5rem;font-size:1rem;line-height:1.2;}
     .honor  .btn_more_df{width:7.5rem;height:2.5rem;line-height:2.5rem;font-size:1.4rem;font-weight:400;padding:0;margin-top:4rem;}
     .honor_list .item_contain .item_des_txt{white-space: normal;}
     .honor_list .item_contain .item_des_sort{font-size:.8rem;}
