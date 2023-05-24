@@ -187,7 +187,6 @@ $(document).ready(function () {
     })
 
     function getBounceframeInfo(index){
-        console.log(index)
         var obj = teamData[index]
         var txt = ''
         obj.des.forEach(item=>{
@@ -216,6 +215,12 @@ $(document).ready(function () {
             $('.bounceframe .des').removeClass('slideInRight')
             $('.bounceframe .info').removeClass('fadeInRight')
             $('.bounceframe .btn_delete').removeClass('fadeIn')
+        }
+
+        // mobile nav
+        var isMobileNav = $('body').hasClass('bodyMask')
+        if(isMobileNav){
+            mobileNavTodo()
         }
     }
 
@@ -246,7 +251,15 @@ $(document).ready(function () {
 
     // menu
     $('.btn_menu').click(function(){
-        $('.header .nav').slideToggle()
+        mobileNavTodo()
+    })
+    function mobileNavTodo(){
+        $('.header .nav').slideToggle('normal',function(){
+            $('body').toggleClass('bodyMask')
+        })
+    }
+    $('.header').click(function(e){
+        e.stopPropagation();
     })
     
 });

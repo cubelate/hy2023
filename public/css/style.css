@@ -556,6 +556,7 @@
 }
 
 .home_mobile_content{display: none;}
+.home_module_nav{display: none;}
 /* h_example */
 .ho_example{
     background-color:#363636;
@@ -1871,6 +1872,9 @@
     .home_mobile_content .item .des{padding:.7rem 1.6rem 1.3rem;}
     .home_mobile_content .item .des_title{font-size:1.8rem;font-weight:500;color:#000;line-height:2.6rem;margin-bottom:.3rem;}
     .home_mobile_content .item .des_txt{font-size:1.4rem;line-height:2.2rem;font-weight:300;color:#3d3d3d;}
-
+    .home_module_nav{display: flex;}
+    .home_module_nav .item{flex:1;height:6.4rem;text-align:center;}
+    .home_module_nav .item:first-child{background:url('../img/home_md_nav1.svg') no-repeat center;}
+    
 }
  
