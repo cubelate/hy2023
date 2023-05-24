@@ -8,3 +8,5 @@
     <li class="{{ \App\Util\NavUtil::getItemClass('/contact.html') }}"><a href="contact.html">联系我们</a></li>
     <li class="nav_item en"><img src="img/en.svg" alt=""></li>
 </ul>
+<!-- mobile -->
+<span class="btn_menu"></span>

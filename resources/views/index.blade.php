@@ -243,6 +243,55 @@
                 </div>
             </div>
 
+             <!-- mobile -->
+             <ul class="home_mobile_content">
+                     <li class="item">
+                         <a href="./about.html">
+                             <i class="imgCase"><img src="img/home_mobile_banner1.jpg" alt=""></i>
+                             <div class="des">
+                                 <p class="des_title">关于我们</p>
+                                 <p class="des_txt">发掘、投资并成就科技行业领导者，为中国科技企业群体崛起而努力</p>
+                             </div>
+                         </a>
+                     </li>
+                     <li class="item">
+                        <a href="./example.html">
+                            <i class="imgCase"><img src="img/home_mobile_banner2.jpg" alt=""></i>
+                            <div class="des">
+                                <p class="des_title">投资案例</p>
+                                <p class="des_txt">All in第三代信息技术，聚焦信息科技以及信息科技驱动的行业变革</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="./team.html">
+                            <i class="imgCase"><img src="img/home_mobile_banner3.jpg" alt=""></i>
+                            <div class="des">
+                                <p class="des_title">管理团队</p>
+                                <p class="des_txt">以成长促增长，帮助科技企业实现可持续发展和长期成功</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="./empower.html">
+                            <i class="imgCase"><img src="img/home_mobile_banner4.jpg" alt=""></i>
+                            <div class="des">
+                                <p class="des_title">投后赋能</p>
+                                <p class="des_txt">以成长促增长，帮助科技企业实现可持续发展和长期成功</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="./newsList.html">
+                            <i class="imgCase"><img src="img/home_mobile_banner5.jpg" alt=""></i>
+                            <div class="des">
+                                <p class="des_title">新闻动态</p>
+                                <p class="des_txt">关于华业和生态伙伴的重要新闻及观点分享，在这里更了解我们</p>
+                            </div>
+                        </a>
+                    </li>
+                 </ul>
+
             <x-foot-contact />
         </div>
     </div>
@@ -316,6 +365,10 @@
         onSlideChangeStart:fullPageChangeStart,
 
     });
+    var bodyWidth = document.documentElement.clientWidth;
+        if(bodyWidth<1000){
+            fullPageSwiper.destroy()
+        }
 
     $('.pageBar_item').click(function(){
         var index = $(this).index()

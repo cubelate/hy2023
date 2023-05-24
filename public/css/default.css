@@ -204,7 +204,3 @@ i{ font-style:normal; font-weight:normal;}
     -o-transition: all .3s;
     transition: all .3s;
 }
-/* mobile */
-@media screen and (max-width:999px) {
-    html{font-size: calc( (100vw / 390) * 10 )}
-}

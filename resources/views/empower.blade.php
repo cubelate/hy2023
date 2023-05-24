@@ -168,6 +168,11 @@
                 <div class="item_coach_title">点对点辅导</div>
                 <div class="item_coach_des">在针对企业拐点和发展情况进行个性化咨询和定制辅导的过程中，注重深入了解科技企业的需求和挑战，提供精准有效的解决方案，并致力于帮助科技企业实现可持续发展和长期成功。</div>
             </div>
+            <!-- mobile -->
+            <img class="mobile_train" src="img/empower_tran_mobile.svg" alt="">
+            <div class="mobile_train2">
+                <img  src="img/empower_tran2_mobile.svg" alt="">
+            </div>
 
         </div>
         <div id="empower_item3" style="padding-top:66px;margin-top:-66px;padding-bottom:150px;">

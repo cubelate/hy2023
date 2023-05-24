@@ -30,11 +30,13 @@ $(document).ready(function () {
     function flex(){
         var domFlex = document.getElementsByClassName("flex-frame")[0];
         var domHtml = document.getElementsByTagName("body")[0];
-        console.log(domHtml)
         var bodyWidth = document.documentElement.clientWidth;
+        if(bodyWidth<1000){
+            return
+        }
         bodyHeight = document.documentElement.clientHeight   //同步更新有所需
          scaleValue = bodyWidth/1920;
-         console.log(bodyHeight * (1 / scaleValue) - 66)
+        //  console.log(bodyHeight * (1 / scaleValue) - 66)
         if(scaleValue < 1){
             $('.flex-frame').css({'transform':"scale("+scaleValue+")"})
             $('.flex-frame').css({"margin-bottom": "-" + domFlex.clientHeight * (1-scaleValue) + "px" })
@@ -231,6 +233,20 @@ $(document).ready(function () {
         $('.example_tabContent').eq(index).addClass('active')
     })
 
- 
+    // form 
+    // select
+    $('.form_select .inputBtn').click(function(){
+        $('.form_selectOption').toggle();
+    })
+    $('.form_selectOption li').click(function(){
+        var val = $(this).text()
+        $('.form_select .inputBtn').val(val)
+        $('.form_selectOption').toggle();
+    })
+
+    // menu
+    $('.btn_menu').click(function(){
+        $('.header .nav').slideToggle()
+    })
     
 });

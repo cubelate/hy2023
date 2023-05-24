@@ -125,6 +125,8 @@ function closeBounceFrame(){
     }
 }
 
+
+
 // form 
 // select
 $('.form_select .inputBtn').click(function(){
@@ -135,6 +137,12 @@ $('.form_selectOption li').click(function(){
     $('.form_select .inputBtn').val(val)
     $('.form_selectOption').toggle();
 })
+
+// menu
+$('.btn_menu').click(function(){
+    $('.header .nav').slideToggle()
+})
+
 
 
 })
