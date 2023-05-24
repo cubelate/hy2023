@@ -98,7 +98,7 @@ function getBounceframeInfo(index){
     $("#teamerIntro p").remove();
     $('#teamerIntro').append(txt)
     if(obj.bp){
-        var btnHtml = '<a class="btn_bp" href="http://www2.huacapital.com/form-bp.html" target="_blank">BP投送</a>'
+        var btnHtml = '<a class="btn_bp" href="/form-bp.html" target="_blank">BP投送</a>'
         $('#teamerIntro').append(btnHtml)
     }   
 

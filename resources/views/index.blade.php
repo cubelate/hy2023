@@ -246,13 +246,13 @@
             <!-- mobile -->
             <div class="home_module_nav">
                 <a class="item" href="{{ URL::to('about.html') }}"><span class="title">关于我们</span></a>
-                <a class="item" href="{{ URL::to('example.html') }}"><span class="title">投资案例</span></a>
+                <a class="item" href="{{ URL::to('case.html') }}"><span class="title">投资案例</span></a>
                 <a class="item" href="{{ URL::to('team.html') }}"><span class="title">管理团队</span></a>
                 <a class="item" href="{{ URL::to('empower.html') }}"><span class="title">投后赋能</span></a>
-                <a class="item" href="{{ URL::to('newsList.html') }}"><span class="title">联系我们</span></a>
+                <a class="item" href="{{ URL::to('contact.html') }}"><span class="title">联系我们</span></a>
             </div>
             <ul class="home_mobile_content">
-                <li class="item" id="item_about">
+                <li class="item" >
                     <a href="{{ URL::to('about.html') }}">
                         <i class="imgCase"><img src="img/home_mobile_banner1.jpg" alt=""></i>
                         <div class="des">
@@ -261,8 +261,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="item" id="item_example">
-                <a href="{{ URL::to('example.html') }}">
+                <li class="item">
+                <a href="{{ URL::to('case.html') }}">
                     <i class="imgCase"><img src="img/home_mobile_banner2.jpg" alt=""></i>
                     <div class="des">
                         <p class="des_title">投资案例</p>
@@ -270,7 +270,7 @@
                     </div>
                 </a>
             </li>
-            <li class="item" id="item_team">
+            <li class="item">
                 <a href="{{ URL::to('team.html') }}">
                     <i class="imgCase"><img src="img/home_mobile_banner3.jpg" alt=""></i>
                     <div class="des">
@@ -279,7 +279,7 @@
                     </div>
                 </a>
             </li>
-            <li class="item" id="item_empower">
+            <li class="item" >
                 <a href="{{ URL::to('empower.html') }}">
                     <i class="imgCase"><img src="img/home_mobile_banner4.jpg" alt=""></i>
                     <div class="des">
@@ -288,8 +288,8 @@
                     </div>
                 </a>
             </li>
-            <li class="item" id="item_contact">
-                <a href="{{ URL::to('newsList.html') }}">
+            <li class="item" >
+                <a href="{{ URL::to('news.html') }}">
                     <i class="imgCase"><img src="img/home_mobile_banner5.jpg" alt=""></i>
                     <div class="des">
                         <p class="des_title">新闻动态</p>
