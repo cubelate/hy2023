@@ -999,6 +999,9 @@ body{
     width:840px;
     float:right;
     font-size: 24px;
+    line-height:1.6;
+    text-align: justify;
+    letter-spacing: 2px;
 }
 .richTxtBx p{
     word-break: break-all;
