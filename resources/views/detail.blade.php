@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="./css/flex_style.css">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/flex.js"></script>
+    <style>
+        .richTxtBx img{
+            object-fit:contain;
+        }
+    </style>
 </head>
 <body>
 <div class="header">
