@@ -12,7 +12,7 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="./css/flex_default.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/flex_style.css?t=3">
+    <link rel="stylesheet" href="./css/flex_style.css?t=5">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/flex.js"></script>
     <style>
