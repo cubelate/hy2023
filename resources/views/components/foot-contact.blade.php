@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="copy">
-            <p>© 华业天成资本 备案号：粤ICP备19045696号</p>
+            <p>© 华业天成资本 备案号：<a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备19045696号</a></p>
         </div>
     </div>
 </div>
