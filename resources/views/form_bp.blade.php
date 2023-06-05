@@ -80,12 +80,10 @@
                             <img class="form_moreBtn" src="img/icon_formMoreBtn.svg" alt="">
                         </div>
                         <ul class="form_selectOption">
-                            <li>金融</li>
-                            <li>互联网</li>
-                            <li>运输</li>
-                            <li>电子商务</li>
-                            <li>仪器仪表</li>
-                            <li>其他</li>
+                            <li>半导体</li>
+                            <li>云与数字化</li>
+                            <li>智能终端</li>
+                            <li>数字能源</li>
                         </ul>
                     </span>
                 </div>
