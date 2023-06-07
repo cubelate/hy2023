@@ -224,9 +224,9 @@
                         <ul class="news" >
                             @foreach($indexNews as $data)
                             <li class="news_item">
-                                <a href="{{ $data->url }}" target="_blank">
+                                <a href="{{ URL::to('/news_detail_'.$data->id.'.html') }}" target="_blank">
                                     <dl class="news_item_dl">
-                                        <dt class="imgCase"><img src="{{ Storage::url($data->cover_image) }}" alt=""></dt>
+                                        <dt class="imgCase"><img src="{{ Storage::url($data->thumb) }}" alt=""></dt>
                                         <dd class="des">
                                             <p class="date">{{ $data->day }}</p>
                                             <p class="txt clampLine2">{{ $data->title }}</p>

@@ -41,20 +41,37 @@ Route::post('/form-reservation.html', [MainController::class, 'postReservation']
 Route::get('/form-application-{type}.html', [MainController::class, 'application']);
 Route::post('/form-application-{type}.html', [MainController::class, 'postApplication']);
 
-/*
+
 Route::get('/donews', function() {
-    $models = HyNewOld::all();
+
+    $models = HyNew::all();
     foreach ($models as $m) {
-        $n = new HyNew();
-        $n->type = 0;
-        $n->title = $m->title;
-        $n->title_in_list = $m->title_in_list;
-        $n->content = str_replace(["http://cms.huacapital.com//uploads", "http://www.huacapital.com//uploads"], "uploads", $m->content);
-        $n->event_day = $m->event_day;
-        $n->sort_val = $m->sort_val;
-        $n->save();
+        $content = $m->content;
+        $pqContent = phpQuery::newDocumentHTML($content);
+        //span strong p img
+        pq("span")->attr("style", "");
+         pq("p")->attr("style", "");
+        pq("strong")->attr("style", "");
+
+        pq("img")->attr("style", "");
+        pq("img")->attr("width", "");
+        pq("img")->attr("height", "");
+
+        $m->content2 = $pqContent->html();
+        $m->save();
+
     }
 
-    echo "Done";
+
+/*
+    $model = HyNew::find(1);
+    $content = "<div>" . $model->content . "</div>";
+    $pqContent = phpQuery::newDocumentHTML($content);
+
+    //$pqContent = pq("span")->removeAttr("stype");
+    pq("p")->attr("style", "");
+    pq("span")->attr("style", "");
+    pq("strong")->attr("style", "");
+    */
+    echo "done";
 });
-*/

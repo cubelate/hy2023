@@ -9,6 +9,7 @@
         "awssat/laravel-visits": "^5.0",
         "encore/laravel-admin": "^1.8",
         "guzzlehttp/guzzle": "^7.2",
+        "jaeger/phpquery-single": "*",
         "laravel-admin-ext/wang-editor": "1.*",
         "laravel/framework": "^10.8",
         "laravel/sanctum": "^3.2",

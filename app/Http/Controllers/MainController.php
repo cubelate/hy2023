@@ -22,7 +22,9 @@ class MainController extends Controller
 
     public function index() {
 
-        $indexNews = HyIndexNew::orderBy('day', 'desc')->orderBy('sort_val', 'desc')->take(4)->get();
+        //$indexNews = HyIndexNew::orderBy('day', 'desc')->orderBy('sort_val', 'desc')->take(4)->get();
+        
+        $indexNews = HyNew::orderBy('event_day', 'desc')->orderBy('sort_val', 'desc')->where('is_top', '1')->take(4)->get();
         return view('index', ['indexNews' => $indexNews]);
     }
 
