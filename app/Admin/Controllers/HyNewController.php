@@ -102,7 +102,7 @@ class HyNewController extends AdminController
 
         $show->field('created_at', __('创建时间'));
         $show->field('updated_at', __('更新时间'));
-        $show->field('content', __('内容'))->unescape();
+        $show->field('content2', __('内容'))->unescape();
         /*
         $show->field('content', __('内容'))->unescape()->as(function ($content) {
             return "<pre>{$content}</pre>";
@@ -129,7 +129,7 @@ class HyNewController extends AdminController
 
         $form->date('event_day', __('日期'))->format('YYYY/MM/DD')->rules('required');
         $form->number('sort_val', __('排序'))->default(100)->help("排序值越大越靠前");
-        $form->editor('content', __('文章内容'))->rules('required');
+        $form->editor('content2', __('文章内容'))->rules('required');
 
         return $form;
     }

@@ -47,7 +47,7 @@
                     {{ $data->title }}
                 </div>
                 <div class="richTxtBx">
-                    {!! $data->content !!}
+                    {!! $data->content2 !!}
                 </div>
 
                 <div class="btnBx">
