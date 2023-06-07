@@ -77,7 +77,7 @@ class MainController extends Controller
 
     public function news() {
         $countInPage = 9;
-        $news = HyNew::orderBy('event_day', 'desc')->orderBy('id', 'desc')->paginate($countInPage);
+        $news = HyNew::orderBy('is_top', 'desc')->orderBy('event_day', 'desc')->paginate($countInPage);
         return view('news', ['news' => $news]);
     }
 
