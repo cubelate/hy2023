@@ -33,7 +33,7 @@
                                 <div class="date_day">{{ date_format(date_create($data->event_day),"m.d") }}</div>
                             </div>
                             <div class="des">
-                                <p class="des_title ht_nowrap">{!! $data->title_in_list !!}</p>
+                                <p class="des_title ht_nowrap">{!! $data->title !!}</p>
                                 <p class="des_txt clampLine2">
                                     {!! $data->desc_in_list !!}
                                 </p>
