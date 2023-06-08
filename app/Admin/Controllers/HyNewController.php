@@ -122,7 +122,7 @@ class HyNewController extends AdminController
         $form->select('type', "栏目")->options(['0' => '华业新闻', '1' => '华业洞察']);
         $form->text('title', __('主标题'))->rules('required');
         //$form->text('title_in_list', __('标题（列表中）'))->rules('required');
-        //$form->text('desc_in_list', __('简介（列表中）'))->rules('required');
+        $form->text('desc_in_list', __('简介'));
 
         $form->select('is_top', __('是否置顶'))->options(['0' => '否', '1' => '是'])->default(0);
         $form->image('thumb', __('封面图片'))->uniqueName()->help("宽高:308*176，大小不超过1M");
