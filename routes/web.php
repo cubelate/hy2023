@@ -45,6 +45,7 @@ Route::post('/form-application-{type}.html', [MainController::class, 'postApplic
 
 Route::get('/donews', function() {
 
+    /*
     $models = HyNew::all();
     foreach ($models as $m) {
         $content = $m->content;
@@ -62,17 +63,12 @@ Route::get('/donews', function() {
         $m->save();
 
     }
+*/
 
-
-/*
-    $model = HyNew::find(1);
-    $content = "<div>" . $model->content . "</div>";
-    $pqContent = phpQuery::newDocumentHTML($content);
-
-    //$pqContent = pq("span")->removeAttr("stype");
-    pq("p")->attr("style", "");
-    pq("span")->attr("style", "");
-    pq("strong")->attr("style", "");
-    */
+    $models = HyNew::all();
+    foreach ($models as $m) {
+        $m->content2 = str_ireplace('<p style="">&nbsp;</p>', '', $m->content2);
+        $m->save();
+    }
     echo "done";
 });
