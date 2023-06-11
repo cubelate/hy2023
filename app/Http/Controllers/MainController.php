@@ -90,8 +90,6 @@ class MainController extends Controller
     public function detail($id) {
         $data = HyNew::find($id);
 
-        if ($data->type)
-
         $next = HyNew::where('id', '>', $id)->where('type', $data->type)->orderBy('is_top', 'desc')->orderBy('event_day', 'desc')->first();
 
         //
