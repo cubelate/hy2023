@@ -220,7 +220,7 @@
                         @endforeach
                         <!-- btn  6个展示 -->
                         <!-- <div class="btn_more_df btn_df">查看更多</div> -->
-                        <a class="btn_more_df btn_df" href="{{ URL::to('news.html') }}" target="_blank">查看更多</a>
+                        <a class="btn_more_df btn_df" href="{{ URL::to('news2.html') }}" target="_blank">查看更多</a>
                     </ul>
                 </div>
             </div>

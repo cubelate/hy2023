@@ -25,6 +25,7 @@ Route::get('/contact.html', [MainController::class, 'contact']);
 Route::get('/empower.html', [MainController::class, 'empower']);
 Route::get('/team.html', [MainController::class, 'team']);
 Route::get('/news.html', [MainController::class, 'news']);
+Route::get('/news2.html', [MainController::class, 'news2']);
 Route::get('/news_detail_{id}.html', [MainController::class, 'detail']);
 
 Route::get('/result.html', [MainController::class, 'result']);

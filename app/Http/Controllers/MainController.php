@@ -56,7 +56,7 @@ class MainController extends Controller
     }
 
     public function about() {
-        $dongcha = HyNew::where('type', '1')->orderBy('event_day', 'desc')->orderBy('id', 'desc')->take(4)->get();
+        $dongcha = HyNew::where('type', '1')->orderBy('event_day', 'desc')->orderBy('id', 'desc')->take(6)->get();
         $xinwen = HyNew::where('type', '0')->orderBy('event_day', 'desc')->orderBy('id', 'desc')->take(6)->get();
 
         return view('about', ['dongcha' => $dongcha, 'xinwen' => $xinwen]);
@@ -77,7 +77,13 @@ class MainController extends Controller
 
     public function news() {
         $countInPage = 9;
-        $news = HyNew::orderBy('is_top', 'desc')->orderBy('event_day', 'desc')->paginate($countInPage);
+        $news = HyNew::where('type', '0')->orderBy('is_top', 'desc')->orderBy('event_day', 'desc')->paginate($countInPage);
+        return view('news', ['news' => $news]);
+    }
+
+    public function news2() {
+        $countInPage = 9;
+        $news = HyNew::where('type', '1')->orderBy('is_top', 'desc')->orderBy('event_day', 'desc')->paginate($countInPage);
         return view('news', ['news' => $news]);
     }
 
