@@ -65,11 +65,13 @@ Route::get('/donews', function() {
     }
 */
 
+/*
     $models = HyNew::all();
     foreach ($models as $m) {
         $m->content2 = str_ireplace('<p style="">&nbsp;</p>', '', $m->content2);
         $m->content2 = str_ireplace('<p><br></p>', '', $m->content2);
         $m->save();
     }
+    */
     echo "done";
 });
