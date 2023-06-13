@@ -90,7 +90,7 @@ class MainController extends Controller
     public function detail($id) {
         $data = HyNew::find($id);
 
-        $next = HyNew::where('id', '>', $id)->where('type', $data->type)->orderBy('event_day', 'desc')->first();
+        $next = HyNew::where('event_day', '>', $$data->event_day)->where('type', $data->type)->orderBy('event_day', 'desc')->first();
 
         //
         $random3 = HyNew::all()->random(3);
