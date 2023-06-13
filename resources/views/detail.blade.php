@@ -40,7 +40,12 @@
             <div class="news_details_content wd_con clearfix">
                 <div class="crumbs">你的位置：
                     <span><a href="{{ URL::to('/') }}">首页</a>></span>
+                    @if ($data->type == 0)
                     <span><a href="{{ URL::to('/news.html') }}">最新动态</a>></span>
+                    @else
+                    <span><a href="{{ URL::to('/news2.html') }}">最新动态</a>></span>
+                    @endif
+                    
                     <span>正文</span>
                 </div>
                 <div class="news_details_title">
