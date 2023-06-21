@@ -74,7 +74,7 @@ class HyHonorController extends AdminController
 
         $form->number('year', __('年度'))->default(2023)->rules('required');
         $form->text('title', __('名称'))->rules('required');
-        $form->text('line1', __('描述1'))->rules('required');
+        $form->text('line1', __('描述1'));
         $form->text('line2', __('描述2'))->rules('required')->help("可以使用 <br \> 来换行");
         $form->number('sort_val', __('排序'))->default(100)->help("排序值越大越靠前");
         $form->image('thumb', __('图片'))->uniqueName()->help("宽高:302*318")->rules('required');
