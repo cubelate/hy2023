@@ -60,7 +60,7 @@ class MainController extends Controller
         $dongcha = HyNew::where('type', '1')->orderBy('event_day', 'desc')->orderBy('id', 'desc')->take(6)->get();
         $xinwen = HyNew::where('type', '0')->orderBy('event_day', 'desc')->orderBy('id', 'desc')->take(6)->get();
 
-        $honors = HyHonor::orderBy('sort_val', 'desc')->all();
+        $honors = HyHonor::orderBy('sort_val', 'desc')->get();
         return view('about', ['dongcha' => $dongcha, 'xinwen' => $xinwen, 'honors' => $honors]);
     }
 
