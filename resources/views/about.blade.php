@@ -263,7 +263,7 @@
                         <img src="{{ Storage::url($h->thumb) }}" alt="">
                         <div class="item_contain">
                             <div class="item_year">{{ $h->year }}</div>
-                            <div class="item_title">{{ $h->title }}</div>
+                            <div class="item_title">{!! $h->title !!}</div>
                             <div class="item_des">
                                 @if (!empty($h->line1))
                                 <div class="item_des_sort">{!! $h->line1 !!}</div> 
