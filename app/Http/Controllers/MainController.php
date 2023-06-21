@@ -6,6 +6,7 @@ use App\Models\HyCompany;
 use App\Models\HyFormBp;
 use App\Models\HyFormReservation;
 use App\Models\HyFormResume;
+use App\Models\HyHonor;
 use App\Models\HyIndexNew;
 use App\Models\HyNew;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
@@ -59,7 +60,8 @@ class MainController extends Controller
         $dongcha = HyNew::where('type', '1')->orderBy('event_day', 'desc')->orderBy('id', 'desc')->take(6)->get();
         $xinwen = HyNew::where('type', '0')->orderBy('event_day', 'desc')->orderBy('id', 'desc')->take(6)->get();
 
-        return view('about', ['dongcha' => $dongcha, 'xinwen' => $xinwen]);
+        $honors = HyHonor::orderBy('sort_val', 'desc')->all();
+        return view('about', ['dongcha' => $dongcha, 'xinwen' => $xinwen, 'honors' => $honors]);
     }
 
     public function team() {

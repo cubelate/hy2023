@@ -258,6 +258,23 @@
             </div>
             <div class="wd_1280">
                 <ul class="honor_list">
+                    @foreach($honors as $h)
+                    <li class="item" >
+                        <img src="{{ Storage::url($h->thumb) }}" alt="">
+                        <div class="item_contain">
+                            <div class="item_year">{{ $h->year }}</div>
+                            <div class="item_title">{{ $h->title }}</div>
+                            <div class="item_des">
+                                <div class="item_des_sort">{{!! $h->line1 !!}}</div>
+                                <div class="item_des_txt">{{!! $h->line2 !!}}</div>
+                            </div>
+                        </div>
+                    </li>
+                    @endforeach
+                    
+                </ul>
+                <!--
+                <ul class="honor_list">
                     <li class="item" >
                         <img src="img/honor1.png" alt="">
                         <div class="item_contain">
@@ -409,6 +426,7 @@
                         </div>
                     </li>
                 </ul>
+                -->
                 <!-- <div class="btn_more_df btn_df">查看更多</div> -->
             </div>
         </div>
