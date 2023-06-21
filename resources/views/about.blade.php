@@ -265,7 +265,7 @@
                             <div class="item_year">{{ $h->year }}</div>
                             <div class="item_title">{{ $h->title }}</div>
                             <div class="item_des">
-                                @if (!is_empty($h->line1))
+                                @if (!empty($h->line1))
                                 <div class="item_des_sort">{!! $h->line1 !!}</div> 
                                 @endif
                                 
