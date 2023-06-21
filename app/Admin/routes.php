@@ -24,4 +24,6 @@ Route::group([
     $router->resource('hy-form-bps', HyFormBpController::class);
     $router->resource('hy-form-reservations', HyFormReservationController::class);
     $router->resource('hy-form-resumes', HyFormResumeController::class);
+
+    $router->resource('hy-honors', HyHonorController::class);
 });
