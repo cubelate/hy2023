@@ -257,7 +257,7 @@
                         <i class="imgCase"><img src="img/home_mobile_banner1.jpg" alt=""></i>
                         <div class="des">
                             <p class="des_title">关于我们</p>
-                            <p class="des_txt">发掘、投资并成就科技行业领导者，为中国科技企业群体崛起而努力</p>
+                            <p class="des_txt">发掘、投资并成就科技行业领导者，为科技企业群体崛起而努力</p>
                         </div>
                     </a>
                 </li>
