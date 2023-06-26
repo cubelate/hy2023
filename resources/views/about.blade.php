@@ -179,7 +179,7 @@
                         </div>
                         <div class="des_item">
                             <p class="des_item_title">投资创造卓越客户价值的科技企业</p>
-                            <p>并与他们一起高效成长为行业领导者，从而为中国科技企业群体崛起做出卓越贡献</p>
+                            <p>并与他们一起高效成长为行业领导者，从而为科技企业群体崛起做出卓越贡献</p>
                         </div>
                         <div class="des_item">
                             <p class="des_item_title">让团队内勤勉敬业的价值创造者</p>
