@@ -275,7 +275,7 @@
                     <i class="imgCase"><img src="img/home_mobile_banner3.jpg" alt=""></i>
                     <div class="des">
                         <p class="des_title">管理团队</p>
-                        <p class="des_txt">以成长促增长，帮助科技企业实现可持续发展和长期成功</p>
+                        <p class="des_txt">科技领导企业实战成长经验，洞察产业趋势，汇聚产业生态</p>
                     </div>
                 </a>
             </li>
