@@ -5,7 +5,7 @@ namespace App\Util;
 class MainHelper
 {
     static public function getWebSiteKeywords() {
-        return "华业天成，华业";
+        return "华业天成，华业，华业天成资本，华业官网，华业天成官网，华业天成官方网站，华业官方网站，华业资本";
     }
 
     static public function getWebSiteDescription() {
