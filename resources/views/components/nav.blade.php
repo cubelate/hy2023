@@ -1,5 +1,5 @@
 <a class="logoCase" href="/"><img src="img/logo.svg" alt=""></a>
-<ul class="nav">
+<ul class="nav" style="margin-right: 16px">
     <li class="{{ \App\Util\NavUtil::getItemClass('/') }}"><a href="/">首页</a></li>
     <li class="{{ \App\Util\NavUtil::getItemClass('/case.html') }}"><a href="case.html">投资案例</a></li>
     <li class="{{ \App\Util\NavUtil::getItemClass('/team.html') }}"><a href="team.html">管理团队</a></li>
