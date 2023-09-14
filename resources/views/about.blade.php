@@ -60,13 +60,14 @@
                         </div>
                         <div class="des">成长为独角兽或准独角兽</div>
                     </li>
+                    <!--
                     <li class="process-item">
                         <div class="title">
                             <span class="big">超过<span class="num">10</span></span> 家企业
                         </div>
                         <div class="des">计划2年内IPO<div>
                     </li>
-
+                    -->
                     <li class="process-item">
                         <div class="title">
                             超过<span class="big"><span class="num">70</span></span>% 复投率

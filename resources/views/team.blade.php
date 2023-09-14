@@ -133,7 +133,7 @@
                         <img class="avatar" src="img/teamer_11.png" alt="" loading="lazy">
                         <div class="des">
                             <p class="name">黄喜</p>
-                            <p class="position">投资董事</p>
+                            <p class="position">执行董事</p>
                         </div>
                     </div>
                 </li>
@@ -142,7 +142,7 @@
                         <img class="avatar" src="img/teamer_12.png" alt="" loading="lazy">
                         <div class="des">
                             <p class="name">撖涛</p>
-                            <p class="position">投资副总裁</p>
+                            <p class="position">投资董事</p>
                         </div>
                     </div>
                 </li>
