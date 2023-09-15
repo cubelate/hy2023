@@ -41,7 +41,7 @@
             </div>
             <!-- right -->
             <div class="about_info_rt " >
-                <ul class="process">
+                <ul class="process" style="padding-top:42px;">
                     <li class="process-item">
                         <div class="title">
                             超<span class="big"><span class="num">60</span></span>亿在管金额
