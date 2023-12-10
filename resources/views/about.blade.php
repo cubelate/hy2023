@@ -11,7 +11,7 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="./css/flex_default.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/flex_style.css">
+    <link rel="stylesheet" href="./css/flex_style.css?v=1">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/flex.js"></script>
 </head>
@@ -224,7 +224,7 @@
                         @if (count($dongcha) >= 6)
                         <a class="btn_more_df btn_df" href="{{ URL::to('news2.html') }}" target="_blank">查看更多</a>
                         @endif
-                        
+
                     </ul>
                 </div>
             </div>
@@ -267,15 +267,15 @@
                             <div class="item_title">{!! $h->title !!}</div>
                             <div class="item_des">
                                 @if (!empty($h->line1))
-                                <div class="item_des_sort">{!! $h->line1 !!}</div> 
+                                <div class="item_des_sort">{!! $h->line1 !!}</div>
                                 @endif
-                                
+
                                 <div class="item_des_txt">{!! $h->line2 !!}</div>
                             </div>
                         </div>
                     </li>
                     @endforeach
-                    
+
                 </ul>
                 <!--
                 <ul class="honor_list">
