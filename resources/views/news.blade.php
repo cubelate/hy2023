@@ -10,7 +10,7 @@
     <meta name="description" content="{{ \App\Util\MainHelper::getWebSitekeywords() }}" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="./css/default.css">
-    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/common.css?t=v1">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
