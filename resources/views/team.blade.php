@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/common.css?v=1">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/myJs.js?t=11"></script>
+    <script src="./js/myJs.js?t=12"></script>
 </head>
 <body>
 <div class="header bg">
@@ -58,10 +58,10 @@
                 </li>
                 <li class="item">
                     <div class="item_case">
-                        <img class="avatar" src="img/teamer_3.png" alt="" loading="lazy">
+                        <img class="avatar" src="img/teamer_6.png" alt="" loading="lazy">
                         <div class="des">
-                            <p class="name">童国栋</p>
-                            <p class="position">企业成长合伙人、首席运营官</p>
+                            <p class="name">黄薇</p>
+                            <p class="position">董事总经理、基金管理部总经理</p>
                         </div>
                     </div>
                 </li>
@@ -76,36 +76,9 @@
                 </li>
                 <li class="item">
                     <div class="item_case">
-                        <img class="avatar" src="img/teamer_5.png" alt="" loading="lazy">
-                        <div class="des">
-                            <p class="name">任建军</p>
-                            <p class="position">董事总经理</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="item_case">
-                        <img class="avatar" src="img/teamer_6.png" alt="" loading="lazy">
-                        <div class="des">
-                            <p class="name">黄薇</p>
-                            <p class="position">董事总经理、基金管理部总经理</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="item_case">
                         <img class="avatar" src="img/teamer_7.png" alt="" loading="lazy">
                         <div class="des">
                             <p class="name">汪崇儒</p>
-                            <p class="position">执行董事</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="item_case">
-                        <img class="avatar" src="img/teamer_8.png" alt="" loading="lazy">
-                        <div class="des">
-                            <p class="name">张仲荣</p>
                             <p class="position">执行董事</p>
                         </div>
                     </div>
@@ -121,18 +94,18 @@
                 </li>
                 <li class="item">
                     <div class="item_case">
-                        <img class="avatar" src="img/teamer_10.gif" alt="" loading="lazy">
+                        <img class="avatar" src="img/teamer_11.png" alt="" loading="lazy">
                         <div class="des">
-                            <p class="name">张刚</p>
+                            <p class="name">黄喜</p>
                             <p class="position">执行董事</p>
                         </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="item_case">
-                        <img class="avatar" src="img/teamer_11.png" alt="" loading="lazy">
+                        <img class="avatar" src="img/teamer_8.png" alt="" loading="lazy">
                         <div class="des">
-                            <p class="name">黄喜</p>
+                            <p class="name">张仲荣</p>
                             <p class="position">执行董事</p>
                         </div>
                     </div>
@@ -143,6 +116,15 @@
                         <div class="des">
                             <p class="name">撖涛</p>
                             <p class="position">投资董事</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_case">
+                        <img class="avatar" src="img/teamer_10.gif" alt="" loading="lazy">
+                        <div class="des">
+                            <p class="name">张刚</p>
+                            <p class="position">执行董事</p>
                         </div>
                     </div>
                 </li>
@@ -161,6 +143,26 @@
                         <div class="des">
                             <p class="name">朱羚嘉</p>
                             <p class="position">投资副总裁</p>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="item">
+                    <div class="item_case">
+                        <img class="avatar" src="img/teamer_3.png" alt="" loading="lazy">
+                        <div class="des">
+                            <p class="name">童国栋</p>
+                            <p class="position">企业成长合伙人、首席运营官</p>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="item">
+                    <div class="item_case">
+                        <img class="avatar" src="img/teamer_5.png" alt="" loading="lazy">
+                        <div class="des">
+                            <p class="name">任建军</p>
+                            <p class="position">董事总经理</p>
                         </div>
                     </div>
                 </li>
