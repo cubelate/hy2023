@@ -26,4 +26,5 @@ Route::group([
     $router->resource('hy-form-resumes', HyFormResumeController::class);
 
     $router->resource('hy-honors', HyHonorController::class);
+    $router->resource('hy-teams', HyTeamController::class);
 });

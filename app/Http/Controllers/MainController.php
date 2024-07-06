@@ -9,6 +9,7 @@ use App\Models\HyFormResume;
 use App\Models\HyHonor;
 use App\Models\HyIndexNew;
 use App\Models\HyNew;
+use App\Models\HyTeam;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
@@ -66,6 +67,11 @@ class MainController extends Controller
 
     public function team() {
         return view('team');
+    }
+
+    public function team2() {
+        $teams = HyTeam::orderBy('order_val', 'desc')->get();
+        return view('team2', ['teams' => $teams]);
     }
 
     public function contact() {
