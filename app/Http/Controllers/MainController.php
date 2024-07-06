@@ -66,7 +66,8 @@ class MainController extends Controller
     }
 
     public function team() {
-        return view('team');
+        $teams = HyTeam::orderBy('order_val', 'desc')->get();
+        return view('team2', ['teams' => $teams]);
     }
 
     public function team2() {
