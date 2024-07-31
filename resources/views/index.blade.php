@@ -53,7 +53,7 @@
         <div class="content page-wrapper" >
             <div class="swiper swiper_home page-slide wow slideInRight">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide ">
+                    {{-- <div class="swiper-slide ">
                         <img src="img/banner-1.jpg" alt="">
                         <div class="wd_con swiper-txtBx lt wow fadeIn" data-wow-delay="1.2s" >
                             <!-- lt -->
@@ -63,7 +63,7 @@
                                 of Chinese technological companies</p>
                         </div>
 
-                    </div>
+                    </div> --}}
                     <div class="swiper-slide ">
                         <img src="img/banner-2.jpg" alt="">
                         <div class="wd_con swiper-txtBx rt  wow fadeIn"  data-wow-delay="1.2s">
@@ -78,10 +78,9 @@
                         <img src="img/banner-3.jpg" alt="">
                         <div class="wd_con swiper-txtBx rt  wow fadeIn" data-wow-delay="1.2s">
                             <!-- rt -->
-                            <p class="swiper-title ">聚焦投资信息科技及
-                                信息科技驱动的行业变革</p>
-                            <p class="swiper-subTitle ">Focus on investing in IT industry
-                                and IT-driven revolution</p>
+                            <p class="swiper-title ">聚焦智能科技及其驱动的行业变革
+                            </p>
+                            <p class="swiper-subTitle ">Focus on investing in intelligent technology and the industry revolution it drives</p>
                         </div>
                     </div>
                 </div>
