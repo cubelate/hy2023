@@ -80,7 +80,7 @@
                             <!-- rt -->
                             <p class="swiper-title ">聚焦智能科技及其驱动的行业变革
                             </p>
-                            <p class="swiper-subTitle ">Focus on investing in intelligent technology and the industry revolution it drives</p>
+                            <p class="swiper-subTitle ">Focus on investing in intelligent technology<br>and the industry revolution it drives</p>
                         </div>
                     </div>
                 </div>
