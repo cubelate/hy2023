@@ -78,7 +78,7 @@
                         <img src="img/banner-3.jpg" alt="">
                         <div class="wd_con swiper-txtBx rt  wow fadeIn" data-wow-delay="1.2s">
                             <!-- rt -->
-                            <p class="swiper-title ">聚焦智能科技及其驱动的行业变革
+                            <p class="swiper-title ">聚焦智能科技<br>及其驱动的行业变革
                             </p>
                             <p class="swiper-subTitle ">Focus on investing in intelligent technology<br>and the industry revolution it drives</p>
                         </div>
