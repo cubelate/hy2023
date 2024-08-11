@@ -97,7 +97,7 @@
                 <div class="wd_con capital_contain">
                     <div class="capital_title">华业天成资本</div>
                     <div class="capital_bg">
-                        <div class="capital_bg_des">华业天成资本由前全球头部科技企业高管、资深投资人创立于2015年，聚焦投资信息科技及信息科技驱动的行业变革，致力于通过价值投资和赋能，成就科技行业领导企业。
+                        <div class="capital_bg_des">华业天成资本由前全球头部科技企业高管、资深投资人创立于2015年，聚焦投资智能科技及其驱动的行业变革，致力于通过价值投资和赋能，成就科技行业领导企业。
                         </div>
                         <img class="icon_opinion" src="./img/capital_opinion.svg" alt="">
                         <img class="icon_resource" src="./img/capital_resource.svg" alt="">
@@ -265,7 +265,7 @@
                     <i class="imgCase"><img src="img/home_mobile_banner2.jpg" alt=""></i>
                     <div class="des">
                         <p class="des_title">投资案例</p>
-                        <p class="des_txt">All in第三代信息技术，聚焦信息科技以及信息科技驱动的行业变革</p>
+                        <p class="des_txt">All in第三代信息技术（智能科技），聚焦智能科技及其驱动的行业变革</p>
                     </div>
                 </a>
             </li>

@@ -25,7 +25,7 @@
             <div class="example_wrap_contain">
                 <div class="effect_contain-content">
                     <p class="title  ">投资案例</p>
-                    <p class="des  ">我们聚焦信息科技以及信息科技驱动的行业变革，包括半导体、云与数字化、智能终端、数字能源等领域，致力于通过价值投资和赋能，成就行业领导企业，为新一代中国科技企业群体崛起作出贡献。</p>
+                    <p class="des  ">我们聚焦智能科技及其驱动的行业变革。包括半导体、AI infra、产业智能、智能终端等领域，致力于通过价值投资和赋能，成就行业领导企业，为新一代中国科技企业群体崛起作出贡献。</p>
                 </div>
             </div>
         </div>
