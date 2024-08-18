@@ -46,7 +46,7 @@
             
 
                 <!-- 1 -->
-                <div class="example_tabContent clearfix ">
+                <div class="example_tabContent clearfix active">
                     @foreach($all as $data)
                         <div class="item">
                             <a  class="item-bx" href="{{ $data['web_url'] }}" target="_blank">
@@ -84,7 +84,7 @@
 
                   <!-- 3 -->  
                 <!-- AI INFRA -->
-                <div class="example_tabContent clearfix active">
+                <div class="example_tabContent clearfix ">
                     @foreach($yyszh as $data)
                         <div class="item">
                             <a  class="item-bx" href="{{ $data['web_url'] }}" target="_blank">
