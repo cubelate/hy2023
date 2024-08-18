@@ -11,7 +11,7 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="./css/flex_default.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/flex_style.css">
+    <link rel="stylesheet" href="./css/flex_style.css?v=1">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/flex.js"></script>
 </head>
@@ -34,13 +34,325 @@
         <div class="example_content">
             <div class="example_tab  ">
                 <div class="item active"><span class="title">全部行业</span></div>
-                <div class="item"><span class="title">半导体</span></div>
-                <div class="item"><span class="title">云与数字化</span></div>
+                <div class="item"><span class="title">AI INFRA</span></div>
+                <div class="item"><span class="title">产业智能</span></div>
                 <div class="item"><span class="title">智能终端</span></div>
                 <div class="item"><span class="title">数字能源</span></div>
             </div>
             <div class="example_bx  ">
                 <!-- 1 -->
+                <!-- 云于数字化 -->
+                <div class="example_tabContent clearfix ">
+
+
+                                    <!--  Smart X -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.smartx.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_23.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">Smart X</p>
+                                                <p class="txt clampLine2">中国领先的超融合架构产品与企业云解决方案
+                                                    供应商</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://mp.weixin.qq.com/s/HXnKoYFz_EKCNbrAqFWRdQ" target="_blank">
+                                                            <p class="date">2022年12月29日</p>
+                                                            <p class="desTxt clampLine2">首款 “SmartX Ready Servers 认证” 鲲鹏服务器发布</p>
+                                                        </a>
+                                                    </li>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--  星融元数据 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://asterfusion.com" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_50.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">星融元数据</p>
+                                                <p class="txt clampLine2">新一代云网络架构的解决方案提供商</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://baijiahao.baidu.com/s?id=1761762833742945590&wfr=spider&for=pc" target="_blank">
+                                                            <p class="date">2023年03月30日</p>
+                                                            <p class="desTxt clampLine2">星融元发布云园区网络解决方案，将精简与高效贯彻到底层架构</p>
+                                                        </a>
+                                                    </li>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                
+                                    <!--  PPIO边缘云 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.ppio.cn/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_24.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">PPIO边缘云</p>
+                                                <p class="txt clampLine2">分布式云服务领先提供商</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://mp.weixin.qq.com/s?__biz=Mzg5MDg5OTI0Mw==&mid=2247485141&idx=1&sn=4c9164a48ef0606a18f2bb0a281f4026&source=41#wechat_redirect" target="_blank">
+                                                            <p class="date">2022年10月09日</p>
+                                                            <p class="desTxt clampLine2">300+项目PK，PPIO斩获华中科技大学全球校友创新创业大赛冠军</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!-- 得瑞领新 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.derastorage.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_13.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">得瑞领新</p>
+                                                <p class="txt clampLine2">中国领先的企业级NVMe SSD控制器、Turn-key
+                                                    方案、以及企业级SSD产品供应商</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://www.derastorage.com/news/144.html" target="_blank">
+                                                            <p class="date">2022年12月12日</p>
+                                                            <p class="desTxt clampLine2">得瑞领新张建涛：应势破局，引领高端数据存储新浪潮</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--  科杰科技 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://keendata.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_25.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">科杰科技</p>
+                                                <p class="txt clampLine2">中国领先的数据管理、开发挖掘、运维一体化的
+                                                    整套方案提供商</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://mp.weixin.qq.com/s?__biz=Mzg5MDg5OTI0Mw==&mid=2247485138&idx=1&sn=7fd79a3c8455bc2fc3e797e4d069f228&source=41#wechat_redirect" target="_blank">
+                                                            <p class="date">2022年09月22日</p>
+                                                            <p class="desTxt clampLine2">数据平台代表厂商！科杰科技入选《2022爱分析 · 数据智能全景报告》</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!-- 云下科技 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.idcloudbase.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_22.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">云下科技</p>
+                                                <p class="txt clampLine2">中国知名的IDC服务提供商</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="http://www.huacapital.com/news/detail/46" target="_blank">
+                                                            <p class="date">2022年02月15日</p>
+                                                            <p class="desTxt clampLine2">全国Top10！云下科技广州汇云数据中心获评“绿色低碳”国家新型数据中心</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--  云砺·票易通 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.xforceplus.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_31.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">云砺·票易通</p>
+                                                <p class="txt clampLine2">中国领先的供应链信息协同及增值税发票管理
+                                                    云平台</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://www.xforceplus.com/NewsD-35-562.html" target="_blank">
+                                                            <p class="date">2023年01月06日</p>
+                                                            <p class="desTxt clampLine2">云砺（票易通）荣登“2022企业财税服务创新排行榜TOP10”、“2022中国科创好公司高人气榜”</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--  云账户 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.yunzhanghu.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_32.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">云账户</p>
+                                                <p class="txt clampLine2">中国领先的共享经济行业财税结算云平台</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="http://www.huacapital.com/news/detail/49" target="_blank">
+                                                            <p class="date">2022年02月24日</p>
+                                                            <p class="desTxt clampLine2">云账户案例入选《中国共享经济发展报告（2022）》</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--  观测云 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.guance.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_33.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">观测未来</p>
+                                                <p class="txt clampLine2">中国领先的具备可观测性的实时数据观测平台</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://mp.weixin.qq.com/s/ikHWyfS__Y7FOsKazR6fKA" target="_blank">
+                                                            <p class="date">2022年09月16日</p>
+                                                            <p class="desTxt clampLine2">持续进阶，驻云科技全新 DMS 服务稳步推动云战略升级</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--  开思汽配 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.casstime.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_34.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">开思汽配</p>
+                                                <p class="txt clampLine2">中国领先的汽配B2B电商平台</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://www.casstime.com/index/news/detail/id/1755.html" target="_blank">
+                                                            <p class="date">2022年11月28日</p>
+                                                            <p class="desTxt clampLine2">开思荣获“产业互联网TOP50”</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--  猎芯网 -->
+                                    <div class="item ">
+                                        <a class="item-bx" href="https://www.ichunt.com/" target="_blank">
+                                            <i class="imgCase">
+                                                <img src="./img/logoList/logo_35.png" alt="">
+                                            </i>
+                                            <div class="des">
+                                                <p class="title clampLine1">猎芯网</p>
+                                                <p class="txt clampLine2">中国领先的电子元器件B2B电商平台</p>
+                                            </div>
+                                        </a>
+                
+                                        <div class="exampleNews">
+                                            <div class="exampleNews_content">
+                                                <p class="exampleNews_content_title">最新动态</p>
+                                                <ul class="list">
+                                                    <li class="li">
+                                                        <a href="https://www.ichunt.com/article/3467.html" target="_blank">
+                                                            <p class="date">2023年02月25日</p>
+                                                            <p class="desTxt clampLine2">喜讯！猎芯荣获第六届蓝点奖</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                </div>
+               
+                <!-- 2 -->
+                <!-- 产业智能 -->
                 <div class="example_tabContent clearfix active">
                     <!--**********  半导体 ********* -->
                     <!-- 英诺赛科 -->
@@ -1058,8 +1370,8 @@
                     </div>
                 </div>
 
-                <!-- 2 -->
-                <!-- 半导体 -->
+                <!-- 3 -->
+                <!-- 智能终端 -->
                 <div class="example_tabContent clearfix ">
                     <!-- 英诺赛科 -->
                     <div class="item">
@@ -1601,315 +1913,7 @@
                 </div>
 
                 <!-- 3 -->
-                <!-- 云于数字化 -->
-                <div class="example_tabContent clearfix ">
 
-
-                    <!--  Smart X -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.smartx.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_23.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">Smart X</p>
-                                <p class="txt clampLine2">中国领先的超融合架构产品与企业云解决方案
-                                    供应商</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://mp.weixin.qq.com/s/HXnKoYFz_EKCNbrAqFWRdQ" target="_blank">
-                                            <p class="date">2022年12月29日</p>
-                                            <p class="desTxt clampLine2">首款 “SmartX Ready Servers 认证” 鲲鹏服务器发布</p>
-                                        </a>
-                                    </li>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--  星融元数据 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://asterfusion.com" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_50.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">星融元数据</p>
-                                <p class="txt clampLine2">新一代云网络架构的解决方案提供商</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://baijiahao.baidu.com/s?id=1761762833742945590&wfr=spider&for=pc" target="_blank">
-                                            <p class="date">2023年03月30日</p>
-                                            <p class="desTxt clampLine2">星融元发布云园区网络解决方案，将精简与高效贯彻到底层架构</p>
-                                        </a>
-                                    </li>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!--  PPIO边缘云 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.ppio.cn/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_24.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">PPIO边缘云</p>
-                                <p class="txt clampLine2">分布式云服务领先提供商</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://mp.weixin.qq.com/s?__biz=Mzg5MDg5OTI0Mw==&mid=2247485141&idx=1&sn=4c9164a48ef0606a18f2bb0a281f4026&source=41#wechat_redirect" target="_blank">
-                                            <p class="date">2022年10月09日</p>
-                                            <p class="desTxt clampLine2">300+项目PK，PPIO斩获华中科技大学全球校友创新创业大赛冠军</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 得瑞领新 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.derastorage.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_13.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">得瑞领新</p>
-                                <p class="txt clampLine2">中国领先的企业级NVMe SSD控制器、Turn-key
-                                    方案、以及企业级SSD产品供应商</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://www.derastorage.com/news/144.html" target="_blank">
-                                            <p class="date">2022年12月12日</p>
-                                            <p class="desTxt clampLine2">得瑞领新张建涛：应势破局，引领高端数据存储新浪潮</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--  科杰科技 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://keendata.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_25.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">科杰科技</p>
-                                <p class="txt clampLine2">中国领先的数据管理、开发挖掘、运维一体化的
-                                    整套方案提供商</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://mp.weixin.qq.com/s?__biz=Mzg5MDg5OTI0Mw==&mid=2247485138&idx=1&sn=7fd79a3c8455bc2fc3e797e4d069f228&source=41#wechat_redirect" target="_blank">
-                                            <p class="date">2022年09月22日</p>
-                                            <p class="desTxt clampLine2">数据平台代表厂商！科杰科技入选《2022爱分析 · 数据智能全景报告》</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 云下科技 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.idcloudbase.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_22.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">云下科技</p>
-                                <p class="txt clampLine2">中国知名的IDC服务提供商</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="http://www.huacapital.com/news/detail/46" target="_blank">
-                                            <p class="date">2022年02月15日</p>
-                                            <p class="desTxt clampLine2">全国Top10！云下科技广州汇云数据中心获评“绿色低碳”国家新型数据中心</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--  云砺·票易通 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.xforceplus.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_31.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">云砺·票易通</p>
-                                <p class="txt clampLine2">中国领先的供应链信息协同及增值税发票管理
-                                    云平台</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://www.xforceplus.com/NewsD-35-562.html" target="_blank">
-                                            <p class="date">2023年01月06日</p>
-                                            <p class="desTxt clampLine2">云砺（票易通）荣登“2022企业财税服务创新排行榜TOP10”、“2022中国科创好公司高人气榜”</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--  云账户 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.yunzhanghu.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_32.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">云账户</p>
-                                <p class="txt clampLine2">中国领先的共享经济行业财税结算云平台</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="http://www.huacapital.com/news/detail/49" target="_blank">
-                                            <p class="date">2022年02月24日</p>
-                                            <p class="desTxt clampLine2">云账户案例入选《中国共享经济发展报告（2022）》</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--  观测云 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.guance.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_33.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">观测未来</p>
-                                <p class="txt clampLine2">中国领先的具备可观测性的实时数据观测平台</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://mp.weixin.qq.com/s/ikHWyfS__Y7FOsKazR6fKA" target="_blank">
-                                            <p class="date">2022年09月16日</p>
-                                            <p class="desTxt clampLine2">持续进阶，驻云科技全新 DMS 服务稳步推动云战略升级</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--  开思汽配 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.casstime.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_34.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">开思汽配</p>
-                                <p class="txt clampLine2">中国领先的汽配B2B电商平台</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://www.casstime.com/index/news/detail/id/1755.html" target="_blank">
-                                            <p class="date">2022年11月28日</p>
-                                            <p class="desTxt clampLine2">开思荣获“产业互联网TOP50”</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--  猎芯网 -->
-                    <div class="item ">
-                        <a class="item-bx" href="https://www.ichunt.com/" target="_blank">
-                            <i class="imgCase">
-                                <img src="./img/logoList/logo_35.png" alt="">
-                            </i>
-                            <div class="des">
-                                <p class="title clampLine1">猎芯网</p>
-                                <p class="txt clampLine2">中国领先的电子元器件B2B电商平台</p>
-                            </div>
-                        </a>
-
-                        <div class="exampleNews">
-                            <div class="exampleNews_content">
-                                <p class="exampleNews_content_title">最新动态</p>
-                                <ul class="list">
-                                    <li class="li">
-                                        <a href="https://www.ichunt.com/article/3467.html" target="_blank">
-                                            <p class="date">2023年02月25日</p>
-                                            <p class="desTxt clampLine2">喜讯！猎芯荣获第六届蓝点奖</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
 
                 <!-- 4 -->
                 <!-- 智能终端 -->
