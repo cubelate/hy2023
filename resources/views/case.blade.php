@@ -37,7 +37,6 @@
                 <div class="item"><span class="title">AI INFRA</span></div>
                 <div class="item"><span class="title">产业智能</span></div>
                 <div class="item"><span class="title">智能终端</span></div>
-                <div class="item"><span class="title">数字能源</span></div>
                 {{-- <div class="item"><span class="title">半导体</span></div>
                 <div class="item"><span class="title">云与数字化</span></div>
                 <div class="item"><span class="title">智能终端</span></div>
