@@ -33,11 +33,11 @@ class HyCompanyController extends AdminController
             if ($type == '1') {
                 return "半导体";
             } else if ($type == '2') {
-                return "云与数字化";
+                return "AI INFRA";
             } else if ($type == '3') {
                 return "智能终端";
             } else if ($type == '4') {
-                return "数字能源";
+                return "产业智能";
             } else {
                 return "Error001";
             }
@@ -72,11 +72,11 @@ class HyCompanyController extends AdminController
             if ($type == '1') {
                 return "半导体";
             } else if ($type == '2') {
-                return "云与数字化";
+                return "AI INFRA";
             } else if ($type == '3') {
                 return "智能终端";
             } else if ($type == '4') {
-                return "数字能源";
+                return "产业智能";
             } else {
                 return "Error001";
             }
@@ -109,7 +109,7 @@ class HyCompanyController extends AdminController
     {
         $form = new Form(new HyCompany());
 
-        $form->select('type', __('行业'))->rules('required')->options(['1' => '半导体', '2' => '云与数字化', '3' => '智能终端', '4' => '数字能源']);
+        $form->select('type', __('行业'))->rules('required')->options(['1' => '半导体', '2' => 'AI INFRA', '3' => '智能终端', '4' => '产业智能']);
         $form->text('name', __('名称'))->rules('required');
         $form->text('stock_code', __('股票代码'));
         $form->image('logo', __('Logo'))->uniqueName()->help("宽高:400*132")->rules('required');
