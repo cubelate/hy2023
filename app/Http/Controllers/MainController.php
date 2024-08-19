@@ -39,7 +39,7 @@ class MainController extends Controller
             return $element['type'] == 1;
         });
 
-        $yyszh = array_filter($all, function ($element){
+        $aiinfra = array_filter($all, function ($element){
             return $element['type'] == 2;
         });
 
@@ -47,10 +47,10 @@ class MainController extends Controller
             return $element['type'] == 3;
         });
 
-        $szny = array_filter($all, function ($element){
+        $cyzn = array_filter($all, function ($element){
             return $element['type'] == 4;
         });
-        return view('case', ['all' => $all, 'bdt'=>$bdt, 'yyszh' => $yyszh, 'znzd' => $znzd, 'szny' => $szny]);
+        return view('case', ['all' => $all, 'bdt'=>$bdt, 'aiinfra' => $aiinfra, 'znzd' => $znzd, 'cyzn' => $cyzn]);
     }
 
     public function case2() {
