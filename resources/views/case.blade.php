@@ -11,7 +11,7 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="./css/flex_default.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/flex_style.css">
+    <link rel="stylesheet" href="./css/flex_style.css?v=1">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/flex.js"></script>
 </head>
@@ -35,6 +35,7 @@
             <div class="example_tab  ">
                 <div class="item active"><span class="title">全部行业</span></div>
                 <div class="item"><span class="title">AI INFRA</span></div>
+                <div class="item"><span class="title">半导体</span></div>
                 <div class="item"><span class="title">产业智能</span></div>
                 <div class="item"><span class="title">智能终端</span></div>
                 {{-- <div class="item"><span class="title">半导体</span></div>
