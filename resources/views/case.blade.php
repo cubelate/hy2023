@@ -34,8 +34,9 @@
         <div class="example_content">
             <div class="example_tab  ">
                 <div class="item active"><span class="title">全部行业</span></div>
-                <div class="item"><span class="title">AI INFRA</span></div>
                 <div class="item"><span class="title">半导体</span></div>
+                <div class="item"><span class="title">AI INFRA</span></div>
+
                 <div class="item"><span class="title">产业智能</span></div>
                 <div class="item"><span class="title">智能终端</span></div>
                 {{-- <div class="item"><span class="title">半导体</span></div>
