@@ -36,8 +36,9 @@
                 <div class="item active"><span class="title">全部行业</span></div>
                 <div class="item"><span class="title">半导体</span></div>
                 <div class="item"><span class="title">AI INFRA</span></div>
-                <div class="item"><span class="title">产业智能</span></div>
                 <div class="item"><span class="title">智能终端</span></div>
+                <div class="item"><span class="title">产业智能</span></div>
+                
                 
                 {{-- <div class="item"><span class="title">半导体</span></div>
                 <div class="item"><span class="title">云与数字化</span></div>
@@ -162,7 +163,45 @@
 
                 </div>
 
-                <!-- 4 -->
+                                <!-- 4 -->
+                <!-- 智能终端 -->
+                <div class="example_tabContent clearfix ">
+                    @foreach($znzd as $data)
+                        <div class="item">
+                            <a  class="item-bx" href="{{ $data['web_url'] }}" target="_blank">
+                                @if(isset($data['stock_code']))
+                                <div class="code">股票代码  {{ $data['stock_code'] }}</div>
+                                @endif
+                                <i class="imgCase">
+                                    <img src="{{ Storage::url($data['logo']) }}" alt="">
+                                </i>
+                                <div class="des">
+                                    <p class="title clampLine1">{{ $data['name'] }}</p>
+                                    <p class="txt clampLine2">{!! $data['brief'] !!}</p>
+                                </div>
+                            </a>
+
+                            @if(isset($data['latest_title']))
+                                <div class="exampleNews">
+                                    <div class="exampleNews_content">
+                                        <p class="exampleNews_content_title">最新动态</p>
+                                        <ul class="list">
+                                            <!-- 只展示1条 -->
+                                            <li class="li">
+                                                <a href="{{ $data['latest_url'] }}" target="_blank">
+                                                    <p class="date">{{ date_format(date_create($data['latest_day']),"Y年m月d日") }}</p>
+                                                    <p class="desTxt clampLine2">{{ $data['latest_title'] }}</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            @endif
+                        </div>
+                    @endforeach
+            </div>
+
+                <!-- 5 -->
                 <!-- 产业智能 -->
                 <div class="example_tabContent clearfix">
                     @foreach($cyzn as $data)
@@ -200,43 +239,7 @@
                     @endforeach
                 </div>
 
-                <!-- 5 -->
-                <!-- 智能终端 -->
-                <div class="example_tabContent clearfix ">
-                        @foreach($znzd as $data)
-                            <div class="item">
-                                <a  class="item-bx" href="{{ $data['web_url'] }}" target="_blank">
-                                    @if(isset($data['stock_code']))
-                                    <div class="code">股票代码  {{ $data['stock_code'] }}</div>
-                                    @endif
-                                    <i class="imgCase">
-                                        <img src="{{ Storage::url($data['logo']) }}" alt="">
-                                    </i>
-                                    <div class="des">
-                                        <p class="title clampLine1">{{ $data['name'] }}</p>
-                                        <p class="txt clampLine2">{!! $data['brief'] !!}</p>
-                                    </div>
-                                </a>
 
-                                @if(isset($data['latest_title']))
-                                    <div class="exampleNews">
-                                        <div class="exampleNews_content">
-                                            <p class="exampleNews_content_title">最新动态</p>
-                                            <ul class="list">
-                                                <!-- 只展示1条 -->
-                                                <li class="li">
-                                                    <a href="{{ $data['latest_url'] }}" target="_blank">
-                                                        <p class="date">{{ date_format(date_create($data['latest_day']),"Y年m月d日") }}</p>
-                                                        <p class="desTxt clampLine2">{{ $data['latest_title'] }}</p>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                @endif
-                            </div>
-                        @endforeach
-                </div>
 
 
             </div>
