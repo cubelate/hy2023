@@ -187,7 +187,7 @@
                         </div>
                         <img class="founder_avatar" src="img/founde1.gif" alt="">
                     </li>
-                    <li class="founder_list_item">
+                    <li class="founder_list_item" style="display: none">
                         <p class="founder_des">华业对归芯所在的行业和战略有非常深的认知，从天使轮开始一直陪伴归芯的成长，对于公司企业战略制定、人才引进、融资和发展帮助很大，给予了很多指导。</p>
                         <div class="founder_info">
                             <p class="founder_info_name">吴迪 </p>
@@ -211,7 +211,7 @@
                         </div>
                         <img class="founder_avatar" src="img/founde4.gif" alt="">
                     </li>
-                    <li class="founder_list_item">
+                    <li class="founder_list_item" style="display: none">
                         <p class="founder_des">华业团队来自产业，能够更好地从企业视角帮助企业发展。华业帮助补充核心团队，对接战略客户，在公司发展过程中提供了很多切实的帮助。 </p>
                         <div class="founder_info">
                             <p class="founder_info_name">万郁葱 </p>
@@ -243,7 +243,7 @@
                         </div>
                         <img class="founder_avatar" src="img/founde8.png" alt="">
                     </li>
-                    <li class="founder_list_item">
+                    <li class="founder_list_item" style="display: none">
                             <p class="founder_des">华业在Pre-A轮领投了开元通信，并在后续多轮中持续支持，帮助我们全面理解产业趋势，并针对不同阶段经营及管理的进化提出了高价值建议，是开元通信信赖的投资人。</p>
                             <div class="founder_info">
                                 <p class="founder_info_name">贾斌</p>
@@ -267,7 +267,7 @@
                             </div>
                             <img class="founder_avatar" src="img/founde11.png" alt="">
                         </li>
-                        <li class="founder_list_item">
+                        <li class="founder_list_item" style="display: none">
                             <p class="founder_des">华业深耕硬科技领域，认知程度深，对科技公司的管理和产品营销都有很深刻的理解，并对企业成长期的痛点和难点密切关注，能够协助企业提供专精深的解决方案。</p>
                             <div class="founder_info">
                                 <p class="founder_info_name">倪川 </p>
