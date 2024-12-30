@@ -44,9 +44,9 @@
                 <ul class="process" style="padding-top:42px;">
                     <li class="process-item">
                         <div class="title">
-                            超<span class="big"><span class="num">60</span></span>亿在管金额
+                            超<span class="big"><span class="num">80</span></span>亿在管金额
                         </div>
-                        <div class="des">人民币及美元资产管理规模超60亿</div>
+                        <div class="des">人民币及美元资产管理规模超80亿</div>
                     </li>
                     <li class="process-item">
                         <div class="title">
