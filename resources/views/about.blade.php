@@ -75,7 +75,7 @@
                         <div class="des">近期基金LP复投率超过70%</div>
                     </li>
                 </ul>
-                <p class="process-date">·数据统计截止至2023年12月31日</p>
+                <p class="process-date">·数据统计截止至2024年12月31日</p>
             </div>
 
             <div class="about_tab">
