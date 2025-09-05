@@ -156,7 +156,7 @@
                 var memberName = teamData[index].name;
                 
                 // Update URL with name parameter
-                updateUrlParameter('name', encodeURIComponent(memberName));
+                updateUrlParameter('name', memberName);
                 
                 getBounceframeInfo(index)
                 $('body').css('overflow-y','hidden')
