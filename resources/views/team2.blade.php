@@ -83,10 +83,81 @@
                 @endforeach
             ]
 
+            // Helper function to get URL parameter
+            function getUrlParameter(name) {
+                var search = location.search.substring(1);
+                var params = search.split('&');
+                for (var i = 0; i < params.length; i++) {
+                    var pair = params[i].split('=');
+                    if (pair[0] === name) {
+                        return decodeURIComponent(pair[1] || '');
+                    }
+                }
+                return null;
+            }
+
+            // Helper function to update URL parameter without page reload
+            function updateUrlParameter(key, value) {
+                var search = location.search.substring(1);
+                var params = search ? search.split('&') : [];
+                var found = false;
+                
+                // Update existing parameter or remove it
+                for (var i = 0; i < params.length; i++) {
+                    var pair = params[i].split('=');
+                    if (pair[0] === key) {
+                        if (value) {
+                            params[i] = key + '=' + encodeURIComponent(value);
+                        } else {
+                            params.splice(i, 1);
+                        }
+                        found = true;
+                        break;
+                    }
+                }
+                
+                // Add new parameter if not found and value is provided
+                if (!found && value) {
+                    params.push(key + '=' + encodeURIComponent(value));
+                }
+                
+                // Update URL
+                var newSearch = params.length ? '?' + params.join('&') : '';
+                var newUrl = location.protocol + '//' + location.host + location.pathname + newSearch;
+                
+                if (window.history && window.history.replaceState) {
+                    window.history.replaceState({}, '', newUrl);
+                } else {
+                    location.replace(newUrl);
+                }
+            }
+
+            // Check for name parameter on page load
+            var nameParam = getUrlParameter('name');
+            if (nameParam) {
+                var index = -1;
+                for (var i = 0; i < teamData.length; i++) {
+                    if (teamData[i].name === nameParam) {
+                        index = i;
+                        break;
+                    }
+                }
+                if (index !== -1) {
+                    getBounceframeInfo(index);
+                    $('body').css('overflow-y','hidden');
+                    $('#teamerInfo').addClass('activeFrame');
+                }
+            }
+
             // click teamer 
             $('.teamers .item').click(function(e){
                 e.stopPropagation();
                 var index = $(this).index()
+                var memberName = teamData[index].name;
+                
+                // Update URL with name parameter
+                updateUrlParameter('name', encodeURIComponent(memberName));
+                
                 getBounceframeInfo(index)
                 $('body').css('overflow-y','hidden')
                 $('#teamerInfo').addClass('activeFrame ')
@@ -128,6 +199,9 @@
                     $('#bigTeamerAvatar').attr("src","")
                     $("#teamerIntro p").remove();
                     $("#teamerIntro .btn_bp").remove();
+                    
+                    // Remove name parameter from URL
+                    updateUrlParameter('name', null);
                 }
 
                 // mobile nav
