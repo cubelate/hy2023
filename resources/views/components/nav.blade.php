@@ -6,7 +6,7 @@
     <li class="{{ \App\Util\NavUtil::getItemClass('/empower.html') }}"><a href="empower.html">投后赋能</a></li>
     <li class="{{ \App\Util\NavUtil::getItemClass('/about.html') }}"><a href="about.html">关于我们</a></li>
     <li class="{{ \App\Util\NavUtil::getItemClass('/contact.html') }}"><a href="contact.html">联系我们</a></li>
-    <li class="nav_item en"><a href="https://eng.huacapital.com/"><img src="img/en.svg" alt=""></a></li>
+    <li class="nav_item en"><a href="https://hytcapital.com/"><img src="img/en.svg" alt=""></a></li>
 </ul>
 <!-- mobile -->
 <span class="btn_menu"></span>
